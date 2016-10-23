@@ -70,7 +70,7 @@ a:hover
 	{
 		position: relative;
 		display: inline-block;
-		background: #2B8FC4;
+		background: #E01F22;
 		padding: 0.8em 2em;
 		border-radius: 4px;
 		text-decoration: none;
@@ -134,7 +134,7 @@ a:hover
 	ul.style2 li {
 		clear: both;
 		padding: 1em 0em 2em 0em;
-		border-top: 1px solid #212124;
+		border-top: 1px solid #167cb2;
 	}
 	
 	ul.style2 p
@@ -174,13 +174,13 @@ a:hover
 	
 	ul.style3 li {
 		padding: 1.75em 0em 1.50em 0em;
-		border-top: 1px solid #212124;
+		border-top: 1px solid #167cb2;
 	}
 	
 	ul.style3 .heading-title {
 		font-size: 1.10em;
 		font-weight: bold;
-		color: #B8B8B8;
+		color: #167cb2;
 	}
 	
 	ul.style3 .date {
@@ -212,7 +212,7 @@ a:hover
 	ul.style3 a 
 	{
 		text-decoration: none;
-		color: #909090;
+		color: #167cb2;
 	}
 	
 	ul.style3 a:hover 
@@ -235,19 +235,19 @@ a:hover
 	
 	ul.style4 li {
 		padding: 0.50em 0em;
-		border-top: 1px solid #212124;
+		border-top: 1px solid #167cb2;
 	}
 	
 	ul.style4 a {
 		padding-left: 1em;
 		background: url(images/list-bullet.png) no-repeat left 50%;
 		text-decoration: none;
-		color: #909090;
+		color: #167cb2;
 	}
 	
 	ul.style4 a:hover {
 		text-decoration: underline;
-		color: #868686;
+		color: #167cb2;
 	}
 	
 	ul.style4 h3
@@ -255,7 +255,7 @@ a:hover
 		padding: 0 0 0.75em 0;
 		font-size: 1.10em;
 		font-weight: 700;
-		color: #B8B8B8;
+		color: #167cb2;
 	}
 	
 	
@@ -720,7 +720,7 @@ a:hover
 
 	#header-wrapper
 	{
-		background: url(../images/cornell.jpg) no-repeat center top;
+		background: url(../images/cornell1.jpg) no-repeat center top;
 		background-size: cover;
 		position: relative;
 	}
@@ -733,12 +733,13 @@ a:hover
 		top: 0;
 		width: 100%;
 		height: 100%;
-		background: rgba(60,50,70,0.5);
+		background: rgba(0,0,0,0.5);
 	}
 	
 	#header {
 		position: relative;
 		z-index: 1;
+		/*background-color: #000000*/
 	}
 	
 	header
