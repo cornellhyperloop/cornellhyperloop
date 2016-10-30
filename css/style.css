@@ -1,12 +1,6 @@
 @charset 'UTF-8';
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
-/*
-	MegaCorp by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
 body
 {
 	margin: 0;
@@ -26,7 +20,8 @@ h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 	font-weight: 300;
-	color: #CFCFCF;
+	color: #000000;
+	/*color: #CFCFCF;*/
 }
 
 h2
@@ -731,6 +726,14 @@ a:hover
 		background-size: cover;
 		position: relative;
 	}
+
+	#header-nonhome
+	{
+		background-color: #FFFFFF
+		background-size: cover;
+		position: relative;
+		padding-bottom: 130px;
+	}
 	
 	#header-wrapper:before
 	{
@@ -809,6 +812,12 @@ a:hover
 
 	#page
 	{	
+		padding: 5em 0em 3em 0em;
+	}
+
+	#nonhome{
+		/*background-color: #000000;*/
+		background-color: #F5F5F5;
 		padding: 5em 0em 3em 0em;
 	}
 

@@ -20,7 +20,7 @@
 <body>
 
   <!-- Header -->
-  <div id="header-wrapper">
+  <div id="header-nonhome">
 
    <div id="header" class="container">
 
@@ -42,7 +42,7 @@
 
 <!-- Page -->
 
-<div id="page">
+<div id="nonhome">
   <div class="container">
     <div class="row">
 
@@ -85,39 +85,10 @@
           </h1>
         </div>
       </form>
-
-      <?php
-
-      if(!isset($_POST['name']) ||
-
-        !isset($_POST['email']) ||
-
-        !isset($_POST['topic']) ||
-
-        !isset($_POST['message'])) {
-
-          echo "A required field was not filled out"
-
-        }
-
-        $to      = 'abhigupta.1600@gmail.com';
-        $from    = $_POST['email'];
-        $subject = $_POST['topic'];
-        $message = $_POST['message'];
-
-        $bool = mail($to, $subject, $message);
-
-        if ($bool == True){
-          echo "Thank you for contacting us. We\'ll be in touch with you very soon."
-        }
-        ?> 
-
-
       </div>
     </div>
-
-  </div>
-</section>
+    </div>
+    </div>
 
 <!-- /Page -->
 
