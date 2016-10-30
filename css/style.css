@@ -277,6 +277,13 @@ a:hover
 		list-style: decimal;
 	}
 
+	.contactus 
+	{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+	}
+
 /*********************************************************************************/
 /* Icons                                                                         */
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
