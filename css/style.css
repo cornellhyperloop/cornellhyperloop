@@ -836,6 +836,11 @@ a:hover
 		margin-top: 2em;
 	}
 
+	#photo {
+		width: 250px;
+		height: 250px;
+	}
+
 /* Sidebar */
 
 	#sidebar
