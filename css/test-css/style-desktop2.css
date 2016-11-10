@@ -81,3 +81,58 @@
 	
 	#nav a:hover {letter-spacing: 1px;text-decoration: none;
 	}
+
+/* Team Photos Hover */
+
+
+figure.snip0003 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 240px;
+  width: 100%;
+  background: #222222;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+    color: white;
+}
+figure.snip0003 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip0003 img {
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  opacity: 1.0;
+  left: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+figure.snip0003 > div {
+  height: 100%;
+  right: -150px;
+  width: 150px;
+  position: absolute;
+  border-left: 2px solid #ffffff;
+  top: 0;
+  padding: 8px 4px;
+  color: #ffffff;
+  background: #222222;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+figure.snip0003 > div > h1 {color: white;}
+figure.snip0003 > div > h2 {color: white;}
+figure.snip0003:hover img {
+  opacity: 0.5;
+  left: -60px;
+}
+figure.snip0003:hover > div {
+  right: 0;
+  opacity: 1;
+}
