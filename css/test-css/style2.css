@@ -109,7 +109,7 @@ a:hover
   content: "";
   position: absolute;
   width: 0;
-  background : #fff;
+  background : white;
   left: 45%;
   height: 2px;
   bottom: 0;

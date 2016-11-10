@@ -66,17 +66,20 @@
 		font-size: 1.10em;
 		color: #FFF;
 		outline: 0;
-        transition: 1s;
+        
+       
 	}
 	
 	#nav .current_page_item {
 	}
 	
 	#nav .current_page_item a {
-		background: #E01F22;
-		box-shadow: inset 0px -15px 10px 0px rgba(0,0,0,0.10);
+		background: transparent;
 		text-shadow: none;
 		color: #FFFFFF;
+        border-bottom: 2px solid white;
+        border-radius: 0px;
+        
 	}
 	
 	#nav a:hover {letter-spacing: 1px;text-decoration: none;
