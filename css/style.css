@@ -939,89 +939,11 @@ a:hover
 		text-decoration: none;
 	}
 
-
-
-/*
-@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-figure.snip0003 {
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  min-width: 100px;
-  max-width: 250px;
-  max-height: 250px;
-  width: 100%;
-  background: #222222;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+.email{
+	position: right;
+	top: auto;
+	text-align: center;
 }
-figure.snip0003 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-figure.snip0003 img {
-  max-width: 100%;
-  position: relative;
-  top: 0;
-  opacity: 1.0;
-  left: 0;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-figure.snip0003 > div {
-  height: 100%;
-  right: -80px;
-  width: 70px;
-  position: absolute;
-  border-left: 2px solid #ffffff;
-  top: 0;
-  padding: 8px 4px;
-  color: #ffffff;
-  background: #222222;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-figure.snip0003 > div a i {
-  display: inline-block;
-  font-size: 32px;
-  color: #ffffff;
-  opacity: 0.75;
-  width: 100%;
-  padding: 5px 15px;
-  position: relative;
-  right: -60px;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-figure.snip0003:hover img {
-  opacity: 0.5;
-  left: -60px;
-}
-figure.snip0003:hover > div {
-  right: 0;
-  opacity: 1;
-}
-figure.snip0003:hover > div a i {
-  right: 0;
-}
-figure.snip0003:hover a:first-child i {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-figure.snip0003:hover a:nth-child(2) i {
-  -webkit-transition-delay: 0.15s;
-  transition-delay: 0.15s;
-}
-figure.snip0003:hover a:nth-child(3) i {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}*/
-
-
-
-
 
 .hovereffect {
   width: 250px;
