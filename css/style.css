@@ -60,7 +60,35 @@ a:hover
 	
 /* Buttons Style 1 */
 
+.btn-12 {
+ text-align: center;
+ display: inline-block;  
+ cursor: pointer;
+ letter-spacing: 2px;
+ position:relative;
+ overflow:hidden;
+ margin: 0 2px;
+}
 
+.current
+{  border: solid 2px;border-top-color:transparent;border-left-color:transparent;border-right-color:transparent;border-bottom-color:white;}
+
+.btn-12:before {
+ content: "";
+ position: absolute;
+ width: 0;
+ background : white;
+ left: 45%;
+ height: 2px;
+ bottom: 0;
+ transition: all .3s;
+ opacity: 1;
+}
+
+.btn-12:hover:before {
+ width: 100%;
+ left:0;
+}
 	.button
 	{
 		position: relative;
