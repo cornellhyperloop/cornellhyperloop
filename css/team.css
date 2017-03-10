@@ -1,5 +1,6 @@
-.background {background-color: black;}
+
 .navbutton{margin-top: 10px;}
+.page-scroll{}
 
 /* Hover Effect for the Team Photo's*/
 .hovereffect {
@@ -86,16 +87,20 @@
 /*---Vertical Navbar Classes*/
 .vnav{position: fixed;width: 4%;height: 40%;margin-top: 4%;white-space: nowrap;z-index: 99}
 /*--Color/Text animations for Orange/Red/Blue*/
-.box-orange{background-color: orange;padding:10px;margin: 0px;transition: width 2s;width: 100%;}
-.box-blue{background-color: dodgerblue;padding:10px;margin: 0px;transition: width 2s;width: 100%;}
-.box-red{background-color: crimson;padding:10px;margin: 0px;transition: width 2s;width: 100%;}
-.box-orange r{color: transparent;transition: all 3s;text-decoration: none;}
-.box-orange:hover r{color: white;text-decoration: none;}
-.box-red r{color: transparent;transition: all 3s;}
-.box-red:hover r{color: white;text-decoration: none;}
-.box-blue r{color: transparent;transition: all 3s;}
-.box-blue:hover r{color: white;text-decoration: none;}
-.box-red:hover{width: 500%;transition: all 1s;}
-.box-blue:hover{width: 350%;transition: all 1s;}
-.box-orange:hover{width: 350%;transition: all 1s;}
+.box-orange{background-color: crimson;padding:10px;margin: 0px;transition: width .5s;width: 100%;}
+.box-blue{background-color: crimson;padding:10px;margin: 0px;transition: width .5s;width: 100%;}
+.box-red{background-color: crimson;padding:10px;margin: 0px;transition: width .5s;width: 100%;}
+
+.box-orange r{color: transparent;transition: color 3s;font-size: 0em;transition: font-size .1s;}
+.box-orange:hover r{color: white;text-decoration: none;font-size: 1em;}
+
+.box-red r{color: transparent;transition: color 3s;font-size: 0em;transition: font-size .1s;}
+.box-red:hover r{color: white;text-decoration: none;font-size: 1em;}
+
+.box-blue r{color: transparent;transition: color 3s;font-size: 0em;transition: font-size .1s;}
+.box-blue:hover r{color: white;text-decoration: none;font-size: 1em;}
+
+.box-red:hover{width: 500%;transition: all .1s;}
+.box-blue:hover{width: 350%;transition: all .1s;}
+.box-orange:hover{width: 350%;transition: all .1s;}
 /*------------------------------------------------------*/
