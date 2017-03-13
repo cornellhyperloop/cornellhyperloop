@@ -8,3 +8,7 @@ a:link {text-decoration: none;}a:visited {text-decoration: none;}a:hover {text-d
 .navbutton:hover{color: crimson;}
 .navbutton:before {content: "";position: absolute;width: 0;background : crimson;left: 45%;height: 2px;bottom: 0;transition: all .3s;}
 .navbutton:hover:before {width: 100%;left:0;}
+
+.donate-butt{margin-top: 8%;}
+.donate{border: solid white 2px;color: white; padding: 10px;margin-top: 0px; text-align: center;}
+.donate:hover{background-color: rgba(0,0,0,.5);}
