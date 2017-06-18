@@ -1,22 +1,7 @@
 body{background-color: #1c1c1c;}
-.cms{background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');height: 100%;background-size: cover;background-position: bottom}
-.navbutton{margin-top: 10px;}
-img {max-width: 100%;max-height: 100%;}
-.countdown{margin-top: 15%;color: white;}
-.pod{width: 100%;overflow: hidden;height: 100%;background-color: #1c1c1c}
+.background{background-image: url('https://i.reddituploads.com/51d2ca44d2684423ab70fad47a88642c?fit=max&h=1536&w=1536&s=7d890f50eb37e15b69d1133d08915080');background-size: cover;background-position: center;}
+.background2{background-image: url(/Images/metal.jpg);height: 100%;width:100%;background-size: cover;background-position: center;}
+.top{margin-top: 8%;}.bot{margin-bottom: 15%;}
+.mini{border: solid white 2px;border-radius: 1000pc;background-color: white;}
+d {background-color: crimson;padding: 10px;border-radius: 5px;margin-left: 5px;} .red{background-color: crimson;padding: 10px;border-radius: 5px;}
 
-.left20{margin-left: 20%;}
-
-.but{width:20%;float: left;height: 50%;}
-
-
-
-.one{background-image: url(../images/image_part_001.jpg);background-size: cover;opacity: 1;}
-.one:hover{opacity: .5;}
-.two{background-image: url(../images/image_part_002.jpg);background-size: cover;opacity: 1;}
-.two:hover{opacity: .5;}
-.three{background-image: url(../images/image_part_003.jpg);background-size: cover;opacity: 1;}
-.three:hover{opacity: .5;}
-
-.sub{margin-top: 40%;opacity: 1;}
-.sub:hover{opacity: 1;}

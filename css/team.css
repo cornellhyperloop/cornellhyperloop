@@ -1,106 +1,15 @@
-
-.navbutton{margin-top: 10px;}
-.page-scroll{}
-
-/* Hover Effect for the Team Photo's*/
-.hovereffect {
-  width: 250px;
-  height: 250px;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-    margin-top: 10px;
-
-}
-.hovereffect .overlay {
-  position: absolute;
-  overflow: hidden;
-  width: 80%;
-  height: 80%;
-  left: 10%;
-  top: 10%;
-  border-bottom: 1px solid #FFF;
-  border-top: 1px solid #FFF;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale(0,1);
-  -ms-transform: scale(0,1);
-  transform: scale(0,1);
-}
-.hovereffect:hover .overlay {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-.hovereffect img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-}
-.hovereffect:hover img {
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
-  filter: brightness(0.6);
-  -webkit-filter: brightness(0.6);
-}
-.hovereffect h2 {
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  font-size: 17px;
-  background-color: transparent;
-  color: #FFF;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,-100%,0);
-  transform: translate3d(0,-100%,0);
-}
-.hovereffect p {
-	color: #FFF;
-}
-.hovereffect a, hovereffect p {
-  color: #FFF;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,100%,0);
-  transform: translate3d(0,100%,0);
-}
-.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-/*--------------------------------------------------------------------------*/
-/*---Vertical Navbar Classes*/
-.vnav{position: fixed;width: 4%;height: 40%;margin-top: 4%;white-space: nowrap;z-index: 99}
-/*--Color/Text animations for Orange/Red/Blue*/
-.box-orange{background-color: crimson;padding:10px;margin: 0px;transition: width .5s;width: 100%;}
-.box-blue{background-color: crimson;padding:10px;margin: 0px;transition: width .5s;width: 100%;}
-.box-red{background-color: crimson;padding:10px;margin: 0px;transition: width .5s;width: 100%;}
-
-.box-orange r{color: transparent;transition: color 3s;font-size: 0em;transition: font-size .1s;}
-.box-orange:hover r{color: white;text-decoration: none;font-size: 1em;}
-
-.box-red r{color: transparent;transition: color 3s;font-size: 0em;transition: font-size .1s;}
-.box-red:hover r{color: white;text-decoration: none;font-size: 1em;}
-
-.box-blue r{color: transparent;transition: color 3s;font-size: 0em;transition: font-size .1s;}
-.box-blue:hover r{color: white;text-decoration: none;font-size: 1em;}
-
-.box-red:hover{width: 500%;transition: all .1s;}
-.box-blue:hover{width: 350%;transition: all .1s;}
-.box-orange:hover{width: 350%;transition: all .1s;}
-/*------------------------------------------------------*/
+html{width: 100%;height: 100%;}body{width: 100%;height: 100%}
+.navbutton{margin-top:10px;}.page-scroll{}
+.background{background-image: url('http://i.imgur.com/3eV0sep.jpg');background-size: cover;height: 100%;background-position: 10% 23%;}
+.bhr{background-color: black;height: px;border: solid black 2px;margin-top: 2px;margin-bottom: 2px;}
+.top{margin-top: 0%;}.notop{margin-top: 1px;margin-bottom: 1px;}@media (min-width: 1900px){.top{margin-top: 10%;}}
+.button{text-decoration: none;}.button:hover{text-decoration: none;}
+.hovereffect{width:250px;height:250px;float:left;overflow:hidden;position:relative;text-align:center;cursor:default;margin-top:10px;}
+.hovereffect .overlay{position:absolute;overflow:hidden;width:80%;height:80%;left:10%;top:10%;border-bottom:1px solid #FFF;border-top:1px solid #FFF;-webkit-transition:opacity 0.35s, -webkit-transform 0.35s;transition:opacity 0.35s, transform 0.35s;-webkit-transform:scale(0,1);-ms-transform:scale(0,1);transform:scale(0,1);}
+.hovereffect:hover .overlay{opacity:1;filter:alpha(opacity=100);-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}
+.hovereffect img{display:block;width:100%;height:100%;position:relative;-webkit-transition:all 0.35s;transition:all 0.35s;}
+.hovereffect:hover img{filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');filter:brightness(0.6);-webkit-filter:brightness(0.6);}
+.hovereffect h2{text-transform:uppercase;text-align:center;position:relative;font-size:17px;background-color:transparent;color:#FFF;padding:1em 0;opacity:0;filter:alpha(opacity=0);-webkit-transition:opacity 0.35s, -webkit-transform 0.35s;transition:opacity 0.35s, transform 0.35s;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);}
+.hovereffect p{color:#FFF;}
+.hovereffect a, hovereffect p{color:#FFF;padding:1em 0;opacity:0;filter:alpha(opacity=0);-webkit-transition:opacity 0.35s, -webkit-transform 0.35s;transition:opacity 0.35s, transform 0.35s;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);}
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2{opacity:1;filter:alpha(opacity=100);-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
