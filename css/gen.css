@@ -18,3 +18,8 @@ body{width: 100%;height: 100%}
 #footer a{text-decoration: none;color: white;}
 #footer a:hover{text-decoration: none;color: crimson;}
 .style{text-decoration: none;color: inherit;}.style:hover{text-decoration: none;color: inherit;}.style:active{text-decoration: none;color: inherit;}
+.navbutton {text-align: left;display: inline-block;position:relative;overflow:hidden;color: black;}
+.navbutton:hover{color: crimson;}
+.navbutton:before {content: "";position: absolute;width: 0;background : crimson;left: 45%;height: 2px;bottom: 0;transition: all .3s;}
+.navbutton:hover:before {width: 100%;left:0;}
+#blacknav{color: black; padding-top: 0px; padding-bottom: 0px; padding-left: 13px; padding-right: 13px;}
