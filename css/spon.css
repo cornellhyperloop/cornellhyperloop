@@ -1,6 +1,7 @@
 .border{border: solid white 2px;padding-bottom: 5px;}
-.border:hover{background-color: rgba(255,255,255,.5);} 
+.border:hover{background-color: rgba(255,255,255,.5);}
 .donate{color: white;margin-top: 0px; text-align: center;}
-.donate:hover{color: white;} 
-.background{background-image: url("http://i.imgur.com/6qu2x1o.jpg");background-size: cover;}
+.donate:hover{color: white;}
+.background2{background-image: url("../images/brightSpace.jpg");background-size: cover;}
 a {text-decoration: none;} a:hover{text-decoration: none;}
+.sponHold{margin-bottom: 40px;}

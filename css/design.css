@@ -1,7 +1,8 @@
+html{width: 100%;}body{width: 100%;}
 body{background-color: #1c1c1c;}
-.background{background-image: url('https://i.reddituploads.com/51d2ca44d2684423ab70fad47a88642c?fit=max&h=1536&w=1536&s=7d890f50eb37e15b69d1133d08915080');background-size: cover;background-position: center;}
 .background2{background-image: url(/Images/metal.jpg);height: 100%;width:100%;background-size: cover;background-position: center;}
 .top{margin-top: 8%;}.bot{margin-bottom: 15%;}
 .mini{border: solid white 2px;border-radius: 1000pc;background-color: white;}
-d {background-color: crimson;padding: 10px;border-radius: 5px;margin-left: 5px;} .red{background-color: crimson;padding: 10px;border-radius: 5px;}
-
+#reveal{width: 100%;}
+#revealHeader{position: absolute; top: 70px; color: white; text-align: center; margin: auto; width: 100%; font-family: 'Quattrocento Sans', sans-serif;}
+#revH{font-family: 'Permanent Marker', cursive; font-size: 50px;}
