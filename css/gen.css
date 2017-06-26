@@ -15,7 +15,7 @@ body{width: 100%; overflow: auto;}
 .navbutton:before {content: "";position: absolute;width: 0;background : crimson;left: 45%;height: 2px;bottom: 0;transition: all .3s;}
 .navbutton:hover:before {width: 100%;left:0;}
 .blackhr {background-color: #1c1c1c;height: 1px;opacity: .5;}
-#footer{background-color: #1c1c1c;height: 50px;z-index: 1};
+#footer{background-color: #1c1c1c;height: 8%;z-index: 1};
 #footer a{text-decoration: none;color: white;}
 #footer h3{text-decoration: none;color: white;}
 #footer h3:hover{text-decoration: none;color: crimson;}
