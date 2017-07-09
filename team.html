@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 
@@ -44,11 +46,11 @@
 
         <div class="row top">
             <div class="col-sm-2 col-sm-offset-5" align="center">
-                <h1 class="white"><i class="fa fa-2x fa-user" aria-hidden="true"></i></h1>
+                <a data-toggle="collapse" href="#leads" ><h1 class="white"><i class="fa fa-2x fa-user" aria-hidden="true"></i></h1></a>
                 <h3 class="white font notop">TEAM LEADS</h3>
             </div>
         </div>
-        <div class="row">
+        <div class="row collapse" id="leads">
           <div class="col-md-2 col-md-offset-2 picHold" align="center">
             <img class="pic" src="images/team/cristian.jpg" alt>
             <p class="nameTxt">Cristian Alonso</p>
@@ -67,10 +69,11 @@
         </div>
         <div class="row">
           <div class="col-sm-2 col-sm-offset-5" align="center">
-              <h1 class="white"><i class="fa fa-2x fa-id-card white" aria-hidden="true"></i></h1>
+              <a data-toggle="collapse" href="#business" ><h1 class="white"><i class="fa fa-2x fa-id-card white" aria-hidden="true"></i></h1></a>
               <h3 class="white font notop">BUSINESS</h3>
           </div>
         </div>
+        <div class="collapse" id="business">
         <div class="row">
           <div class="col-md-2 col-md-offset-3 picHold2" align="center">
             <img class="pic" src="images/team/ewa.png" alt>
@@ -111,12 +114,14 @@
             <p class="nameTxt">Jay Kim</p>
           </div>
         </div>
+      </div>
         <div class="row">
             <div class="col-sm-2 col-sm-offset-5" align="center">
-                <h1 class="white"><i class="fa fa-2x fa-battery-full" aria-hidden="true"></i></h1>
+                <a data-toggle="collapse" href="#electrical" ><h1 class="white"><i class="fa fa-2x fa-battery-full" aria-hidden="true"></i></h1></a>
                 <h3 class="white font notop">ELECTRICAL</h3>
             </div>
         </div>
+        <div class="collapse" id="electrical">
         <div class="row">
           <div class="col-md-2 col-md-offset-3 picHold2" align="center">
             <img class="pic" src="images/team/marissa.jpg" alt>
@@ -158,14 +163,15 @@
             <p class="nameTxt">Manvith Narahari</p>
           </div>
         </div>
-
+      </div>
 
         <div class="row">
           <div class="col-sm-2 col-sm-offset-5" align="center">
-              <h1 class="white"><i class="fa fa-2x fa-fighter-jet" aria-hidden="true"></i></h1>
+              <a data-toggle="collapse" href="#fuselage" ><h1 class="white"><i class="fa fa-2x fa-fighter-jet" aria-hidden="true"></i></h1></a>
               <h3 class="white font notop">FUSELAGE</h3>
           </div>
         </div>
+        <div class="collapse" id="fuselage">
         <div class="row">
           <div class="col-sm-2 col-sm-offset-5 picHold2" align="center">
             <img class="pic" src="images/team/todd.jpg" alt>
@@ -192,12 +198,14 @@
             <p class="nameTxt">Sam Ognisty</p>
           </div>
         </div>
+      </div>
         <div class="row">
           <div class="col-sm-2 col-sm-offset-5" align="center">
-              <h1 class="white"><i class="fa fa-2x fa-magnet" aria-hidden="true"></i></h1>
+              <a data-toggle="collapse" href="#maglev" ><h1 class="white"><i class="fa fa-2x fa-magnet" aria-hidden="true"></i></h1></a>
               <h3 class="white font notop">MAGLEV</h3>
           </div>
         </div>
+        <div class="collapse" id="maglev">
         <div class="row">
           <div class="col-sm-2 col-sm-offset-5 picHold2" align="center">
             <img class="pic" src="css/images/featured-bg.png" alt>
@@ -237,13 +245,14 @@
             <p class="nameTxt">Jean Turban</p>
           </div>
         </div>
-
+      </div>
         <div class="row">
           <div class="col-sm-2 col-sm-offset-5" align="center">
-              <h1 class="white"><i class="fa fa-2x fa-cogs" aria-hidden="true"></i></h1>
+              <a data-toggle="collapse" href="#suspension" ><h1 class="white"><i class="fa fa-2x fa-cogs" aria-hidden="true"></i></h1></a>
               <h3 class="white font notop">SUSPENSION</h3>
           </div>
         </div>
+        <div class="collapse" id="suspension">
         <div class="row">
           <div class="col-sm-2 col-sm-offset-5 picHold2" align="center">
             <img class="pic" src="images/team/alyse.jpg" alt>
@@ -298,7 +307,7 @@
             <p class="nameTxt">Tosin Yeku</p>
           </div>
         </div>
-
+      </div>
     </div>
 </div>
 

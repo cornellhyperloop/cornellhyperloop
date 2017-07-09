@@ -1,6 +1,6 @@
 html{width: 100%;}body{width: 100%;}
 .page-scroll{}
-.background2{background-image: url("../images/teamBG.jpg");background-size: cover;width: 100%;background-position: center center;}
+.background2{background-image: url("http://www.designbolts.com/wp-content/uploads/2012/11/Free-Simple-Black-Seamless-Pattern-for-Website-Background.jpg");background-size: auto;background-position: center center;}
 .top{margin-top: 0%;}.notop{margin-top: 1px;margin-bottom: 15px;}
 .button{text-decoration: none;}.button:hover{text-decoration: none;}
 .hovereffect{width:250px;height:250px;float:left;overflow:hidden;position:relative;text-align:center;cursor:default;margin-top:10px;}
@@ -17,3 +17,4 @@ html{width: 100%;}body{width: 100%;}
 .pic{height: 100%;border-radius: 50%;position: relative;margin: auto;}
 .nameTxt{color: white; margin-bottom: 1px;}
 .picTxt{color: crimson;}
+/*background-image: url("../images/teamBG.jpg");*/
