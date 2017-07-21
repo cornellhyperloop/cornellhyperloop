@@ -1,27 +1,9 @@
-
 .background{background-color: #d4d6d8; overflow: auto;}
-
-.maintitle{text-align: center;font-size: 10em;letter-spacing: .2em;margin-top: 10%;}
-.backgroundtext{background-color: transparent;background-position: 50% 25%;-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-size: cover;}
 a:link {text-decoration: none;}a:visited {text-decoration: none;}a:hover {text-decoration: none;}a:active {text-decoration: none;}
-
 .col-sm-12 {margin-top: 16%; position: absolute; z-index: 2;}
-
-.donate-butt{margin-top: 17%;}
 .donate{background-color: rgba(244,244,244,.4);border: solid black 2px;color: black; padding: 0px;margin-top: 0px; text-align: center;}
 .donate:hover{background-color: rgba(0,0,0,.5);color: white;}
-
 #buttonholder{margin-top: 10px; z-index: 2; position: absolute;}
 .font2{font-size: 30px; font-weight: 700; color: #1c1c1c;}
-video {
-    z-index: 1;
-    width: 100%;
-    display: inline-block;
-    margin:0;
-    padding:0;
-    position: relative;
-    top: 0px;
-}
-.vidH{
-  font-size: 0;
-}
+video {z-index: 1;width: 100%;display: inline-block;margin:0;padding:0;position: relative;top: 0px;}
+.vidH{font-size: 0;}
