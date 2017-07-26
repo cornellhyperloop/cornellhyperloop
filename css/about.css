@@ -4,3 +4,5 @@ a {text-decoration: none;} a:hover {text-decoration: none;}
 #page a:hover{color: crimson;}
 #navbar{background-color: #d4d6d8; min-width: 50%;}
 #lngtxt{margin-bottom: 40px;}
+#page h1{font-weight: 900;}
+#page h2{font-weight: 900;}
