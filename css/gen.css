@@ -12,6 +12,7 @@ body{width: 100%; overflow: auto;}
 
 .white{color: white}
 .black{color: #1c1c1c; font-size: 20px;}
+.blacktext{color: black;}
 
 .font{font-family: 'Quattrocento Sans', sans-serif;}
 .fontTitle{}

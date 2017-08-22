@@ -4,13 +4,10 @@ html{width: 100%;}body{width: 100%;}
 .picHold{height: 175px; margin-bottom: 60px;}
 .picHold2{height: 175px; margin-bottom: 60px;}
 .pic{height: 100%;border-radius: 50%;position: relative;margin: auto;}
-.nameTxt{color: white; margin-bottom: 1px;}
-.picTxt{color: crimson;}
-
-
-.one1{background: url('/images/lead.png')no-repeat ;background-size: cover;background-position: center;}
-.two2{background: url('/images/business.png')no-repeat ;background-size: cover; background-position: center;}
-.thr3{background: url('/images/elec.png')no-repeat ;background-size: cover;background-position: center;}
-.four{background: url('/images/fuel.png')no-repeat ;background-size: cover;background-position: center;}
-.five{background: url('/images/mag.png')no-repeat ;background-size: cover;background-position: center;}
-.six{background: url('/images/oth2.png')no-repeat ;background-size: cover;background-position: center;}
+.nameTxt{color: black; margin-bottom: 1px;font-family: 'Quattrocento Sans', sans-serif;font-weight: 900;}
+.picTxt{color: crimson;font-weight: 900;}
+.pre-back{background: url(../images/team%20pic.jpg) fixed;background-size: cover;height: 600px;}
+.main-title{font-weight: 900;font-size: 5em;margin-top: 170px;}
+.whitebackground{background-color: white;}
+.sec{margin-top: 20px;}
+.blackhr2{background-color: black;height: 5px;color: black;}
