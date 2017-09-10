@@ -1,4 +1,4 @@
-html{width: 100%;}body{width: 100%;}
+html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 .page-scroll{}
 .top{margin-top: 0%;}.notop{margin-top: 1px;margin-bottom: 15px;font-weight: 800;}
 .picHold{height: 175px; margin-bottom: 60px;}
@@ -6,8 +6,8 @@ html{width: 100%;}body{width: 100%;}
 .pic{height: 100%;border-radius: 50%;position: relative;margin: auto;}
 .nameTxt{color: black; margin-bottom: 1px;font-family: 'Quattrocento Sans', sans-serif;font-weight: 900;}
 .picTxt{color: crimson;font-weight: 900;}
-.pre-back{background: url(../images/team%20pic.jpg) fixed;background-size: cover;height: 600px;}
-.main-title{font-weight: 900;font-size: 5em;margin-top: 170px;}
+.pre-back{background: url(../images/team%20pic.jpg) fixed;background-size: cover;height: 100%;}
+.main-title{font-weight: 900;font-size: 5em;margin-top: 60%;}
 .whitebackground{background-color: white;}
 .sec{margin-top: 20px;}
 .blackhr2{background-color: black;height: 5px;color: black;}

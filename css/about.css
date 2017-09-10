@@ -1,5 +1,9 @@
+html{height: 100%;}
+body{height: 100%;}
 a {text-decoration: none;} a:hover {text-decoration: none;}
 .background2{background-image: url("http://i.imgur.com/eHSVOgC.jpg");background-size: cover;min-height:100%;}
+.pre-back{background: url(../images/pod%20blur.jpg) fixed;background-size: cover;height: 100%;}
+.main-title{font-weight: 900;font-size: 5em;margin-top: 60%;}
 #page a:hover{color: crimson;}
 #lngtxt{margin-bottom: 40px;}
 #page h1{font-weight: 900;}
