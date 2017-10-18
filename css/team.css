@@ -11,3 +11,5 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 .whitebackground{background-color: white;}
 .sec{margin-top: 20px;}
 .blackhr2{background-color: black;height: 5px;color: black;}
+
+.pre-back2{background: url(../images/team.jpg) fixed;background-size: cover;height: 100%;}
