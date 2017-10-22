@@ -1,6 +1,6 @@
 html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 .page-scroll{}
-.top{margin-top: 0%;}.notop{margin-top: 1px;margin-bottom: 15px;font-weight: 800;}
+.top{margin-top: 0%;}.notop{margin-top: 0;margin-bottom: 0;font-weight: 800; text-align: center;}
 .picHold{height: 175px; margin-bottom: 60px;}
 .picHold2{height: 175px; margin-bottom: 60px;}
 .pic{height: 100%;border-radius: 50%;position: relative;margin: auto;}
@@ -13,3 +13,43 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 .blackhr2{background-color: black;height: 5px;color: black;}
 
 .pre-back2{background: url(../images/team.jpg) fixed;background-size: cover;height: 100%;}
+.icon-row-bg {
+  background-image: url("../images/icons/bg.png");
+  width: 100%;
+  /*background-color: red;*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 2% 0;
+}
+.icons{
+  padding: 2% 0;
+  margin: 0 auto;
+}
+.icons img{
+  width: 80%;
+  padding-bottom: 5%;
+}
+#one img {
+  margin-left: 20%;
+}
+#two img {
+  margin-left: 15%;
+}
+#three img {
+  margin-left: 13%;
+}
+#four img {
+  margin-left: 10%;
+}
+#five img {
+  margin-left: 7%;
+}
+#six img {
+  margin-left: 5%
+}
+#icons {
+  width: 100%;
+}
+.clear {
+    clear: both;
+}
