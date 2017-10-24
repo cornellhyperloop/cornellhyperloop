@@ -27,7 +27,6 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 }
 .icons img{
   width: 80%;
-  padding-bottom: 5%;
 }
 #one img {
   margin-left: 20%;
@@ -51,5 +50,5 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
   width: 100%;
 }
 .clear {
-    clear: both;
+  clear: both;
 }
