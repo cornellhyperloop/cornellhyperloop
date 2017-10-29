@@ -10,6 +10,8 @@ body{width: 100%; overflow: auto;}
 .navbutton:hover:before {width: 100%;left:0;}
 .navbutton:before {content: "";position: absolute;width: 0;background : crimson;left: 45%;height: 2px;bottom: 0;transition: all .3s;}
 
+.navbar-header img{align-content: left;}
+
 .white{color: white}
 .black{color: #1c1c1c; font-size: 20px;}
 .blacktext{color: black;}
