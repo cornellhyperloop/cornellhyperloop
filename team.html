@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" script src="js/team.js"></script>
 </head>
 
 
@@ -23,7 +27,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a href="index.html"><img src="images/logotext.png" height="70px"></a>
+                    <a href="index.html"><img src="images/logotext.png" height="70" alt="Hyperloop team page"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
@@ -48,42 +52,39 @@
     <div id="page " class="whitebackground">
         <div class="container-fluid">
 
-
-
-
+          <!-- Subteam Icons -->
           <div class="icon-row-bg">
-            <div class="col-sm-4 col-md-2 icons" id="one">
-              <a data-toggle="collapse" data-target="#leads" ><h1 class="blacktext"><img src="images/icons/leads_ic.png" alt="leads icon"/></h1>
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" data-target="#leads" id="one"><h1 class="blacktext"><img src="images/icons/leads_ic.png" alt="leads icon" id="leadsImg"/></h1>
               <h3 class="blacktext font notop">TEAM LEADS</h3></a>
             </div>
-            <div class="col-sm-4 col-md-2 icons" id="two">
-              <a data-toggle="collapse" href="#business" ><h3 class="blacktext font notop">BUSINESS</h3>
-              <img src="images/icons/business_ic.png" alt="business icon"/></a>
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" href="#business" id="two"><h3 class="blacktext font notop">BUSINESS</h3>
+              <img src="images/icons/business_ic.png" alt="business icon" id="businessImg"/></a>
             </div>
-            <div class="col-sm-4 col-md-2 icons" id="three">
-              <a data-toggle="collapse" href="#electrical" ><h1 class="blacktext"><img src="images/icons/electrical_ic.png" alt="electrical icon"/></h1>
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" href="#electrical" id="three">
+                <h1 class="blacktext"><img src="images/icons/electrical_ic.png" alt="electrical icon" id="electricalImg"/></h1>
               <h3 class="blacktext font notop">ELECTRICAL</h3></a>
             </div>
-            <div class="col-sm-4 col-md-2 icons" id="four">
-              <a data-toggle="collapse" href="#fuselage">
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" href="#fuselage" id="four">
                 <h3 class="blacktext font notop">FUSELAGE</h3>
-                <img src="images/icons/fuselage_ic.png" alt="fuselage icon"/>
+                <img src="images/icons/fuselage_ic.png" alt="fuselage icon" id="fuselageImg"/>
               </a>
             </div>
-            <div class="col-sm-4 col-md-2 icons" id="five">
-              <a data-toggle="collapse" href="#maglev" ><h1 class="blacktext"><img src="images/icons/maglev_ic.png" alt="maglev icon"/></h1>
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" href="#maglev" id="five"><h1 class="blacktext"><img src="images/icons/maglev_ic.png" alt="maglev icon" id="maglevImg"/></h1>
               <h3 class="blacktext font notop">MAGLEV</h3></a>
             </div>
-            <div class="col-sm-4 col-md-2 icons" id="six">
-              <a data-toggle="collapse" href="#suspension">
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" href="#suspension" id="six">
                 <h3 class="blacktext font notop">SUSPENSION</h3>
-                <img src="images/icons/suspension_ic.png" alt="suspension icon"/>
+                <img src="images/icons/suspension_ic.png" alt="suspension icon" id="suspensionImg"/>
               </a>
             </div>
             <div class="clear"></div>
           </div>
-
-
 
           <!-- Team Leads -->
             <div class="row collapse " id="leads">

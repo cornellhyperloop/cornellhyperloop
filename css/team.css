@@ -15,11 +15,11 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 .pre-back2{background: url(../images/team.jpg) fixed;background-size: cover;height: 100%;}
 .icon-row-bg {
   background-image: url("../images/icons/bg.png");
-  width: 100%;
+  width: 80%;
   /*background-color: red;*/
   background-repeat: no-repeat;
   background-size: 100%;
-  margin: 2% 0;
+  margin: 2% auto;
 }
 .icons{
   padding: 2% 0;
@@ -49,6 +49,33 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 #icons {
   width: 100%;
 }
+
+
+#one, #one:hover, #one:active, #one:visited, #one:focus {
+  text-decoration: none;
+}
+#two, #two:hover, #two:active, #two:visited, #two:focus {
+  text-decoration: none;
+}
+#three, #three:hover, #three:active, #three:visited, #three:focus {
+  text-decoration: none;
+}
+#four, #four:hover, #four:active, #four:visited, #four:focus {
+  text-decoration: none;
+}
+#five, #five:hover, #five:active, #five:visited, #five:focus {
+  text-decoration: none;
+}
+#six, #six:hover, #six:active, #six:visited, #six:focus {
+  text-decoration: none;
+}
+
+
 .clear {
   clear: both;
+}
+@media screen and (max-width: 991px) {
+  .icon-row-bg {
+    background-image: none;
+  }
 }
