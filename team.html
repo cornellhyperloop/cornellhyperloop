@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" script src="js/team.js"></script>
 </head>
 
 
@@ -23,7 +27,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a href="index.html"><img src="images/logotext.png" height="70px"></a>
+                    <a href="index.html"><img src="images/logotext.png" height="70" alt="Hyperloop team page"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
@@ -38,7 +42,7 @@
         </nav>
     </div>
 
-    <div class="container-fluid pre-back">
+    <div class="container-fluid pre-back2">
         <div class="row" align="center">
             <div class="col-md-4 col-md-offset-4">
                 <h1 class="font white main-title">MEET THE TEAM</h1>
@@ -48,13 +52,45 @@
     <div id="page " class="whitebackground">
         <div class="container-fluid">
 
-            <div class="row sec top ">
-                <div class="col-sm-10 col-md-offset-1 one" align="left">
-                    <a data-toggle="collapse" data-target="#leads" ><h1 class="blacktext"><i class="fa fa-2x fa-user" aria-hidden="true"></i></h1></a>
-                    <h3 class="blacktext font notop">TEAM LEADS</h3>
-                    <hr class="blackhr2">
-                </div>
+          <!-- Subteam Icons -->
+          <div class="icon-row-bg">
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" data-target="#leads" id="one">
+                <img src="images/icons/leads_off.png" alt="leads icon" id="leadsImg"/>
+                <h3 class="blacktext font notop">TEAM LEADS</h3>
+              </a>
             </div>
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" href="#business" id="two"><h3 class="blacktext font notop">BUSINESS</h3>
+              <img src="images/icons/business_off.png" alt="business icon" id="businessImg"/></a>
+            </div>
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" href="#suspension" id="six">
+                <img src="images/icons/suspension_off.png" alt="suspension icon" id="suspensionImg"/>
+                <h3 class="blacktext font notop">SUSPENSION</h3>
+              </a>
+            </div>
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" href="#electrical" id="three">
+                <h3 class="blacktext font notop">ELECTRICAL</h3>
+                <img src="images/icons/electrical_off.png" alt="electrical icon" id="electricalImg"/>
+              </a>
+            </div>
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" href="#maglev" id="five">
+                <img src="images/icons/maglev_off.png" alt="maglev icon" id="maglevImg"/>
+                <h3 class="blacktext font notop">MAGLEV</h3></a>
+            </div>
+            <div class="col-sm-4 col-md-2 icons">
+              <a data-toggle="collapse" href="#fuselage" id="four">
+                <h3 class="blacktext font notop">FUSELAGE</h3>
+                <img src="images/icons/fuselage_off.png" alt="fuselage icon" id="fuselageImg"/>
+              </a>
+            </div>
+            <div class="clear"></div>
+          </div>
+
+          <!-- Team Leads -->
             <div class="row collapse " id="leads">
               <div class="col-md-2 col-md-offset-2 picHold" align="center">
                 <img class="pic" src="images/team/cristian.jpg" alt>
@@ -73,13 +109,7 @@
               </div>
             </div>
 
-            <div class="row sec">
-              <div class="col-sm-10 col-md-offset-1" align="left">
-                  <a data-toggle="collapse" href="#business" ><h1 class="blacktext"><i class="fa fa-2x fa-id-card" aria-hidden="true"></i></h1></a>
-                  <h3 class="blacktext font notop">BUSINESS</h3>
-                  <hr class="blackhr2">
-                </div>
-            </div>
+            <!-- Business -->
             <div class="collapse " id="business">
             <div class="row">
               <div class="col-md-2 col-md-offset-3 picHold2" align="center">
@@ -133,13 +163,7 @@
             </div>
           </div>
 
-            <div class="row sec">
-                <div class="col-sm-10 col-md-offset-1" align="left">
-                    <a data-toggle="collapse" href="#electrical" ><h1 class="blacktext"><i class="fa fa-2x fa-battery-full" aria-hidden="true"></i></h1></a>
-                    <h3 class="blacktext font notop">ELECTRICAL</h3>
-                    <hr class="blackhr2">
-                </div>
-            </div>
+          <!-- Electrical -->
             <div class="collapse " id="electrical">
             <div class="row">
               <div class="col-md-2 col-md-offset-3 picHold2" align="center">
@@ -168,7 +192,6 @@
               </div>
             </div>
             <div class="row">
-
               <div class="col-md-2 col-md-offset-2  picHold2" align="center">
                 <img class="pic" src="css/images/featured-bg.png" alt>
                 <p class="nameTxt">Jacob Polacek</p>
@@ -183,7 +206,6 @@
               </div>
             </div>
             <div class="row">
-
               <div class="col-md-2 col-md-offset-2  picHold2" align="center">
                 <img class="pic" src="css/images/featured-bg.png" alt>
                 <p class="nameTxt">Siddarth Sankaran</p>
@@ -199,13 +221,7 @@
             </div>
             </div>
 
-            <div class="row sec">
-              <div class="col-sm-10 col-md-offset-1" align="left">
-                  <a data-toggle="collapse" href="#fuselage" ><h1 class="blacktext"><i class="fa fa-2x fa-fighter-jet" aria-hidden="true"></i></h1></a>
-                  <h3 class="blacktext font notop">FUSELAGE</h3>
-                  <hr class="blackhr2">
-                </div>
-            </div>
+            <!-- Fuselage -->
             <div class="collapse " id="fuselage">
             <div class="row">
               <div class="col-sm-2 col-sm-offset-5 picHold2" align="center">
@@ -236,13 +252,7 @@
             </div>
           </div>
 
-            <div class="row sec">
-                <div class="col-sm-10 col-md-offset-1" align="left">
-                  <a data-toggle="collapse" href="#maglev" ><h1 class="blacktext"><i class="fa fa-2x fa-magnet" aria-hidden="true"></i></h1></a>
-                  <h3 class="blacktext font notop">MAGLEV</h3>
-                    <hr class="blackhr2">
-                </div>
-            </div>
+          <!-- Maglev -->
             <div class="collapse " id="maglev">
             <div class="row">
               <div class="col-sm-2 col-sm-offset-5 picHold2" align="center">
@@ -295,13 +305,7 @@
             </div>
           </div>
 
-            <div class="row sec">
-              <div class="col-sm-10 col-md-offset-1" align="left">
-                  <a data-toggle="collapse" href="#suspension" ><h1 class="blacktext"><i class="fa fa-2x fa-cogs" aria-hidden="true"></i></h1></a>
-                  <h3 class="blacktext font notop">SUSPENSION</h3>
-                  <hr class="blackhr2">
-              </div>
-            </div>
+          <!-- Suspension -->
             <div class="collapse " id="suspension">
             <div class="row">
               <div class="col-sm-2 col-sm-offset-5 picHold2" align="center">
@@ -341,12 +345,6 @@
           </div>
         </div>
     </div>
-
-
-
-
-
-
 
 
     <div id="footer" class="container-fluid">
