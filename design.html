@@ -37,18 +37,76 @@
                 </div>
             </div>
         </nav>
+        <br>
+        <div class="row subsystem">
+            <div class="col-md-2"> 
+                <div class="buttons">
+                    <a class="reveal font" onClick="document.getElementById('fuelsalage').style.opacity='.1';
+                                                    document.getElementById('suspension').style.opacity='1';
+                                                    document.getElementById('maglev').style.opacity='1';
+                                                    document.getElementById('electrical').style.opacity='1';
+                                                    document.getElementById('fuselagetext').style.opacity='0';
+                                                    document.getElementById('suspensiontext').style.opacity='0';
+                                                    document.getElementById('maglevtext').style.opacity='0';
+                                                    document.getElementById('electricaltext').style.opacity='0';"> All Subsystems</a>
+                    <br><br>
+                    <a class="reveal font" onClick="document.getElementById('fuelsalage').style.opacity='.1';
+                                                    document.getElementById('suspension').style.opacity='.1';
+                                                    document.getElementById('maglev').style.opacity='.1';
+                                                    document.getElementById('electrical').style.opacity='1';
+                                                    document.getElementById('fuselagetext').style.opacity='0';
+                                                    document.getElementById('suspensiontext').style.opacity='0';
+                                                    document.getElementById('maglevtext').style.opacity='0';
+                                                    document.getElementById('electricaltext').style.opacity='1';"> Electrical</a>
+                    <br><br>
+                    <a class="reveal font" onClick="document.getElementById('fuelsalage').style.opacity='.1';
+                                                    document.getElementById('electrical').style.opacity='.1';
+                                                    document.getElementById('maglev').style.opacity='.1';
+                                                    document.getElementById('suspension').style.opacity='1';
+                                                    document.getElementById('fuselagetext').style.opacity='0';
+                                                    document.getElementById('electricaltext').style.opacity='0';
+                                                    document.getElementById('maglevtext').style.opacity='0';
+                                                    document.getElementById('suspensiontext').style.opacity='1';"> Suspension</a>
+                    <br><br>
+                    <a class="reveal font" onClick="document.getElementById('fuelsalage').style.opacity='.1';
+                                                    document.getElementById('suspension').style.opacity='.1';
+                                                    document.getElementById('electrical').style.opacity='.1';
+                                                    document.getElementById('maglev').style.opacity='1';
+                                                    document.getElementById('fuselagetext').style.opacity='0';
+                                                    document.getElementById('suspensiontext').style.opacity='0';
+                                                    document.getElementById('electricaltext').style.opacity='0';
+                                                    document.getElementById('maglevtext').style.opacity='1';"> Maglev</a>
+                    <br><br>
+                    <a class="reveal font" onClick="document.getElementById('electrical').style.opacity='.1';
+                                                    document.getElementById('suspension').style.opacity='.1';
+                                                    document.getElementById('maglev').style.opacity='.1';
+                                                    document.getElementById('fuelsalage').style.opacity='1';
+                                                    document.getElementById('electricaltext').style.opacity='0';
+                                                    document.getElementById('suspensiontext').style.opacity='0';
+                                                    document.getElementById('maglevtext').style.opacity='0';
+                                                    document.getElementById('fuselagetext').style.opacity='1';"> Fuselage</a>
+                    <br><br>
+                </div>
+            </div>
+            <div id="fuelsalage" class="col-md-6 col-md-offset-2"></div>
+            <div id="suspension" class=" col-md-6"></div>
+            <div id="electrical" class=" col-md-6 col-md-offset-2"></div>
+            <div id="maglev" class=" col-md-6 col-md-offset-2"></div>
+            <div id="maglevtext" class=" col-md-4 col-md-offset-8"> <br><br><br>Maglev Text:<br>The maglev system is responsible for...</div>
+            <div id="suspensiontext" class=" col-md-4 col-md-offset-8"> <br><br><br>Suspension Text:<br>The suspension subsystem is responsible for...</div>
+            <div id="fuselagetext" class=" col-md-4 col-md-offset-8"> <br><br><br>Fuselage Text:<br>The fuselage subsystem is responsible for...</div>
+            <div id="electricaltext" class=" col-md-4 col-md-offset-8"> <br><br><br>Electrical Text:<br>The electrical subsystem is responsible for...</div>
+
+
+
+            
+
+        </div>
     </div>
 
 
 
-    <div class="container-fluid background" align="center">
-        <div class="row" id="revealHeader">
-            <h1 id="revH">Competition III Design Unveiling Coming Soon...</h1>
-        </div>
-        <div class="row">
-            <img id="reveal" src="images/podReveal.png" alt="">
-        </div>
-    </div>
+    
     
     <div id="footer" class="container-fluid">
         <div class="row">

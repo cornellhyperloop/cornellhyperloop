@@ -1,8 +1,28 @@
-html{width: 100%;}body{width: 100%;}
-body{background-color: #1c1c1c;}
-.background2{background-image: url(/Images/metal.jpg);height: 100%;width:100%;background-size: cover;background-position: center;}
+html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
+.background{background-color: white;min-height: 100%;}
+
 .top{margin-top: 8%;}.bot{margin-bottom: 15%;}
-.mini{border: solid white 2px;border-radius: 1000pc;background-color: white;}
-#reveal{width: 100%;}
-#revealHeader{position: absolute; top: 70px; color: white; text-align: center; margin: auto; width: 100%; font-family: 'Quattrocento Sans', sans-serif;}
-#revH{font-family: 'Permanent Marker', cursive; font-size: 50px;}
+
+#suspension {position: relative; background-image: url(../images/Top%20Right%20Suspension2.png);height: 600px;opacity: 1;z-index: 5;background-position: center;background-size: cover; transition: all 1s;}
+
+#fuelsalage {position: absolute; background-image: url(../images/Top%20Right%20Fuel2.png);height: 600px;opacity: 1;z-index: 11;background-position: center;background-size: cover; transition: all 1s;}
+
+#electrical {position: absolute; background-image: url(../images/Top%20Right%20Elec2.png);height: 600px; opacity: 1; z-index: 6;background-position: center;background-size: cover; transition: all 1s;}
+
+#maglev {position: absolute; background-image: url(../images/Top%20Right%20Maglev2.png);height: 600px; opacity: 1; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
+
+#maglevtext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
+
+#suspensiontext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
+
+#fuselagetext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
+
+#electricaltext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
+
+
+
+.reveal{color: black;font-size: 1.5em;font-weight: 900;border: solid black 2px;padding: 3px;}
+.reveal:hover {color: crimson;text-decoration: none;}
+.subsystem{border-top: solid black 2px;border-bottom: solid black 2px;}
+
+.buttons{margin-top: 55%;}
