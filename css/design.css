@@ -1,28 +1,37 @@
-html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
-.background{background-color: white;min-height: 100%;}
+html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
+.prebackground{background-image: url(../images/about%20blur.jpg);height: 100%;background-size: cover;}
+.background{background-color: white;min-height: 50%;}
+
+.main-title{font-weight: 900;font-size: 5em;margin-top: 60%;}
 
 .top{margin-top: 8%;}.bot{margin-bottom: 15%;}
 
 #suspension {position: relative; background-image: url(../images/Top%20Right%20Suspension2.png);height: 600px;opacity: 1;z-index: 5;background-position: center;background-size: cover; transition: all 1s;}
-
 #fuelsalage {position: absolute; background-image: url(../images/Top%20Right%20Fuel2.png);height: 600px;opacity: 1;z-index: 11;background-position: center;background-size: cover; transition: all 1s;}
-
 #electrical {position: absolute; background-image: url(../images/Top%20Right%20Elec2.png);height: 600px; opacity: 1; z-index: 6;background-position: center;background-size: cover; transition: all 1s;}
-
 #maglev {position: absolute; background-image: url(../images/Top%20Right%20Maglev2.png);height: 600px; opacity: 1; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
-
+#fullpodtext {position: absolute; font-size:20pt ; opacity: 1; z-index: 5;background-position: center;background-size: cover; transition: all 1s;}
 #maglevtext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
-
 #suspensiontext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
-
 #fuselagetext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
-
 #electricaltext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
 
+.center{padding-top: 10%;}
+.reveal{color: white;font-size: 1.5em;font-weight: 900;border: solid white 2px;padding: 3px;}
+.reveal:hover {color: white;text-decoration: none;}
+.subsystem{border-bottom: solid black 2px;}
 
+.buttons{height: 600px;}
 
-.reveal{color: black;font-size: 1.5em;font-weight: 900;border: solid black 2px;padding: 3px;}
-.reveal:hover {color: crimson;text-decoration: none;}
-.subsystem{border-top: solid black 2px;border-bottom: solid black 2px;}
+.block-butt{height:20%;transition: all 1s;}
+.block-butt:hover{opacity: .7;}
 
-.buttons{margin-top: 55%;}
+#one {background-color: crimson;}
+#two {background-color: dodgerblue;}
+#three {background-color: forestgreen;}
+#four {background-color: orange}
+#five {background-color: blueviolet;}
+
+.destext{background-image: url("http://www.texturex.com/albums/Metal-Textures/dark%20brushed%20metal%20texture%20steel%20black%20stock%20photo%20scratch%20wallpaper.jpg");background-size: cover;height: 600px;width: 25.8%;color: white;}
+.contitle{font-weight: 900;}
+.soon{font-weight: 900;font-size: 5em;margin-top: 30%;margin-bottom: 30%;}

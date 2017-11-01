@@ -5,17 +5,20 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src="https://use.fontawesome.com/a685f20cb7.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <link rel="stylesheet" href="css/gen.css" />
-    <link rel="stylesheet" href="css/design.css" />
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">    
+    
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/design.css" />
+    <link rel="stylesheet" href="css/gen.css" />
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 </head>
 
 
 <body>
-    <div class="container-fluid background">
+    
+    <div class="container-fluid ">
+        
         <nav class="navbar navbar-default" id="navbar">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -37,70 +40,113 @@
                 </div>
             </div>
         </nav>
-        <br>
-        <div class="row subsystem">
-            <div class="col-md-2"> 
-                <div class="buttons">
-                    <a class="reveal font" onClick="document.getElementById('fuelsalage').style.opacity='.1';
+    </div>
+    <div class="container-fluid prebackground">
+        <div class="row" align="center">
+            <div class="col-md-4 col-md-offset-4">
+                <h1 class="font white main-title">HYPERLOOP DESIGN</h1>
+            </div>
+        </div>
+    
+    </div>
+    <div class="container-fluid background">
+        
+        <div class="row subsystem font">
+            <div class="col-md-3"> 
+                <div class="buttons" align="center">
+                    
+                    <div class="block-butt" id="one" onClick="document.getElementById('fuelsalage').style.opacity='.1';
                                                     document.getElementById('suspension').style.opacity='1';
                                                     document.getElementById('maglev').style.opacity='1';
                                                     document.getElementById('electrical').style.opacity='1';
                                                     document.getElementById('fuselagetext').style.opacity='0';
                                                     document.getElementById('suspensiontext').style.opacity='0';
                                                     document.getElementById('maglevtext').style.opacity='0';
-                                                    document.getElementById('electricaltext').style.opacity='0';"> All Subsystems</a>
-                    <br><br>
-                    <a class="reveal font" onClick="document.getElementById('fuelsalage').style.opacity='.1';
+                                                    document.getElementById('electricaltext').style.opacity='0';">
+                        <div class="center">
+                            <a class="reveal font" >ALL SUBSYTEMS</a>
+                        </div>
+                    </div>
+                    
+                     <div class="block-butt" id="two" onClick="document.getElementById('fuelsalage').style.opacity='.1';
                                                     document.getElementById('suspension').style.opacity='.1';
                                                     document.getElementById('maglev').style.opacity='.1';
                                                     document.getElementById('electrical').style.opacity='1';
                                                     document.getElementById('fuselagetext').style.opacity='0';
                                                     document.getElementById('suspensiontext').style.opacity='0';
                                                     document.getElementById('maglevtext').style.opacity='0';
-                                                    document.getElementById('electricaltext').style.opacity='1';"> Electrical</a>
-                    <br><br>
-                    <a class="reveal font" onClick="document.getElementById('fuelsalage').style.opacity='.1';
+                                                    document.getElementById('electricaltext').style.opacity='1';">
+                        <div class="center">
+                            <a class="reveal font" >ELECTRICAL</a>
+                        </div>
+                    </div>
+                    
+                    <div class="block-butt" id="three" onClick="document.getElementById('fuelsalage').style.opacity='.1';
                                                     document.getElementById('electrical').style.opacity='.1';
                                                     document.getElementById('maglev').style.opacity='.1';
                                                     document.getElementById('suspension').style.opacity='1';
                                                     document.getElementById('fuselagetext').style.opacity='0';
                                                     document.getElementById('electricaltext').style.opacity='0';
                                                     document.getElementById('maglevtext').style.opacity='0';
-                                                    document.getElementById('suspensiontext').style.opacity='1';"> Suspension</a>
-                    <br><br>
-                    <a class="reveal font" onClick="document.getElementById('fuelsalage').style.opacity='.1';
+                                                    document.getElementById('suspensiontext').style.opacity='1';">
+                        <div class="center">
+                            <a class="reveal font" >SUSPENSION</a>
+                        </div>
+                    </div>
+                    
+                     <div class="block-butt" id="four" onClick="document.getElementById('fuelsalage').style.opacity='.1';
                                                     document.getElementById('suspension').style.opacity='.1';
                                                     document.getElementById('electrical').style.opacity='.1';
                                                     document.getElementById('maglev').style.opacity='1';
                                                     document.getElementById('fuselagetext').style.opacity='0';
                                                     document.getElementById('suspensiontext').style.opacity='0';
                                                     document.getElementById('electricaltext').style.opacity='0';
-                                                    document.getElementById('maglevtext').style.opacity='1';"> Maglev</a>
-                    <br><br>
-                    <a class="reveal font" onClick="document.getElementById('electrical').style.opacity='.1';
+                                                    document.getElementById('maglevtext').style.opacity='1';">
+                        <div class="center">
+                            <a class="reveal font" >MAGLEV</a>
+                        </div>
+                    </div>
+                    
+                    <div class="block-butt" id="five" onClick="document.getElementById('electrical').style.opacity='.1';
                                                     document.getElementById('suspension').style.opacity='.1';
                                                     document.getElementById('maglev').style.opacity='.1';
                                                     document.getElementById('fuelsalage').style.opacity='1';
                                                     document.getElementById('electricaltext').style.opacity='0';
                                                     document.getElementById('suspensiontext').style.opacity='0';
                                                     document.getElementById('maglevtext').style.opacity='0';
-                                                    document.getElementById('fuselagetext').style.opacity='1';"> Fuselage</a>
-                    <br><br>
+                                                    document.getElementById('fuselagetext').style.opacity='1';">
+                        <div class="center">
+                            <a class="reveal font" >FUSELAGE</a>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
             </div>
-            <div id="fuelsalage" class="col-md-6 col-md-offset-2"></div>
             <div id="suspension" class=" col-md-6"></div>
-            <div id="electrical" class=" col-md-6 col-md-offset-2"></div>
-            <div id="maglev" class=" col-md-6 col-md-offset-2"></div>
-            <div id="maglevtext" class=" col-md-4 col-md-offset-8"> <br><br><br>Maglev Text:<br>The maglev system is responsible for...</div>
-            <div id="suspensiontext" class=" col-md-4 col-md-offset-8"> <br><br><br>Suspension Text:<br>The suspension subsystem is responsible for...</div>
-            <div id="fuselagetext" class=" col-md-4 col-md-offset-8"> <br><br><br>Fuselage Text:<br>The fuselage subsystem is responsible for...</div>
-            <div id="electricaltext" class=" col-md-4 col-md-offset-8"> <br><br><br>Electrical Text:<br>The electrical subsystem is responsible for...</div>
+            <div id="fuelsalage" class="col-md-6 col-md-offset-3"></div>            
+            <div id="electrical" class=" col-md-6 col-md-offset-3"></div>
+            <div id="maglev" class=" col-md-6 col-md-offset-3"></div>
+            <div id="fullpodtext" class=" col-md-3 col-md-offset-9 destext">
+                
+                <br><br><br><h1 align="center" class="font white title">Cornell Hyperloop Pod Design 2017</h1><br><h3> Click on each subsystem to learn more!</h3>
+            
+            </div>
+            <div id="maglevtext" class=" col-md-3 col-md-offset-9 destext"> <br><br><br><h1 class="contitle">Maglev:</h1><br>The maglev system is responsible for developing and implementing the magnetic levitation subsystems as well as aiding in lateral control through the use of magnets.</div>
+            <div id="suspensiontext" class=" col-md-3 col-md-offset-9 destext"> <br><br><br><h1 class="contitle">Suspension:</h1><br>The suspension subsystem is responsible for designing and implementing the chasis design, wheel subsystem and the braking mechanisms for the pod.</div>
+            <div id="fuselagetext" class=" col-md-3 col-md-offset-9 destext"> <br><br><br><h1 class="contitle">Fuselage:</h1><br>The fuselage subsystem is responsible for designing the casing and shape of the outermost shell. The take into consideration material costs, drag and other physical factors.</div>
+            <div id="electricaltext" class=" col-md-3 col-md-offset-9 destext"> <br><br><br><h1 class="contitle">Electrical:</h1><br>The electrical subsystem is responsible for connecting all subsystems electronically as well as reading the data from the pods sensors. The pods sensors deliver data that drive the self correcting safety features on board the pod.</div>
 
 
 
             
 
+        </div>
+        
+        <div class="row" align="center">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="font black soon">2018 HYPERLOOP POD DESIGN<br>COMING SOON</h1>
+            </div>
         </div>
     </div>
 
