@@ -10,4 +10,6 @@ h1 {font-weight: 900;}
 .black2{color: #1c1c1c}
 .pre-back{background: url(../images/spons1.jpg) fixed;background-size: cover;height: 100%;}
 .main-title{font-weight: 900;font-size: 5em;margin-top: 60%;}
+#images img{border-bottom: solid 5px transparent;padding-bottom: 5px;transition: 1s;}
+#images img:hover{opacity: .8;border-bottom-color: #1c1c1c;}
 
