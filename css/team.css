@@ -22,29 +22,31 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
   margin: 2% auto;
 }
 .icons{
-  padding: 2% 0;
-  margin: 0 auto;
+  margin: 2% auto;
 }
-.icons img{
+.icons img {
   width: 80%;
 }
 #one img {
-  margin-left: 20%;
+  margin-top: 25%;
+  margin-left: 23%;
 }
 #two img {
-  margin-left: 15%;
-}
-#three img {
-  margin-left: 13%;
-}
-#four img {
-  margin-left: 10%;
-}
-#five img {
-  margin-left: 7%;
+  margin-left: 18%;
 }
 #six img {
-  margin-left: 5%
+  margin-top: 25%;
+  margin-left: 12%;
+}
+#three img {
+  margin-left: 8%;
+}
+#five img {
+  margin-top: 25%;
+  margin-left: 0;
+}
+#four img {
+  margin-left: 0%;
 }
 #icons {
   width: 100%;
