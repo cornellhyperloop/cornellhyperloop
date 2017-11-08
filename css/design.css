@@ -3,7 +3,7 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 
 .top{margin-top: 8%;}.bot{margin-bottom: 15%;}
 
-#suspension {position: relative; background-image: url(../images/Top%20Right%20Suspension2.png);height: 600px;opacity: 1;z-index: 5;background-position: center;background-size: cover; transition: all 1s;}
+#suspension {position: relative; background-image: url(../images/test.png);height: 600px;opacity: 1;z-index: 5;background-position: center;background-size: cover; transition: all 1s;}
 
 #fuelsalage {position: absolute; background-image: url(../images/Top%20Right%20Fuel2.png);height: 600px;opacity: 1;z-index: 11;background-position: center;background-size: cover; transition: all 1s;}
 
