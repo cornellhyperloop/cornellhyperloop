@@ -17,6 +17,7 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
 #fuselagetext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
 #electricaltext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
 
+
 .center{padding-top: 10%;}
 .reveal{color: white;font-size: 1.5em;font-weight: 900;border: solid white 2px;padding: 3px;}
 .reveal:hover {color: white;text-decoration: none;}
