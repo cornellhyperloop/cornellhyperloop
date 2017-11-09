@@ -6,78 +6,33 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 .pic{height: 100%;border-radius: 50%;position: relative;margin: auto;}
 .nameTxt{color: black; margin-bottom: 1px;font-family: 'Quattrocento Sans', sans-serif;font-weight: 900;}
 .picTxt{color: crimson;font-weight: 900;}
-.pre-back{background: url(../images/team%20pic.jpg) fixed;background-size: cover;height: 100%;}
-.main-title{font-weight: 900;font-size: 5em;margin-top: 60%;}
+.pre-back{background: url(../images/backgrounds/team.jpg) fixed;background-size: cover;height: 100%;}
 .whitebackground{background-color: white;}
 .sec{margin-top: 20px;}
 .blackhr2{background-color: black;height: 5px;color: black;}
 
-.pre-back2{background: url(../images/team.jpg) fixed;background-size: cover;height: 100%;}
-.icon-row-bg {
-  background-image: url("../images/icons/bg.png");
-  width: 80%;
-  /*background-color: red;*/
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin: 2% auto;
-}
-.icons{
-  margin: 2% auto;
-}
-.icons img {
-  width: 80%;
-}
-#one img {
-  margin-top: 25%;
-  margin-left: 23%;
-}
-#two img {
-  margin-left: 18%;
-}
-#six img {
-  margin-top: 25%;
-  margin-left: 12%;
-}
-#three img {
-  margin-left: 8%;
-}
-#five img {
-  margin-top: 25%;
-  margin-left: 0;
-}
-#four img {
-  margin-left: 0%;
-}
-#icons {
-  width: 100%;
-}
+.pre-back2{background: url(../images/backgrounds/team.jpg) fixed;background-size: cover;height: 100%;}
+.icon-row-bg {background-image: url("../images/icons/bg.png");width: 80%;/*background-color: red;*/background-repeat: no-repeat;background-size: 100%;margin: 2% auto;}
+.icons{margin: 2% auto;}
+.icons img {width: 80%;}
+#one img {margin-top: 25%;margin-left: 23%;}
+#two img {margin-left: 18%;}
+#six img {margin-top: 25%;margin-left: 12%;}
+#three img {margin-left: 8%;}
+#five img {margin-top: 25%;margin-left: 0;}
+#four img {margin-left: 0%;}
+#icons {width: 100%;}
 
 
-#one, #one:hover, #one:active, #one:visited, #one:focus {
-  text-decoration: none;
-}
-#two, #two:hover, #two:active, #two:visited, #two:focus {
-  text-decoration: none;
-}
-#three, #three:hover, #three:active, #three:visited, #three:focus {
-  text-decoration: none;
-}
-#four, #four:hover, #four:active, #four:visited, #four:focus {
-  text-decoration: none;
-}
-#five, #five:hover, #five:active, #five:visited, #five:focus {
-  text-decoration: none;
-}
-#six, #six:hover, #six:active, #six:visited, #six:focus {
-  text-decoration: none;
-}
+#one, #one:hover, #one:active, #one:visited, #one:focus {text-decoration: none;}
+#two, #two:hover, #two:active, #two:visited, #two:focus {text-decoration: none;}
+#three, #three:hover, #three:active, #three:visited, #three:focus {text-decoration: none;}
+#four, #four:hover, #four:active, #four:visited, #four:focus {text-decoration: none;}
+#five, #five:hover, #five:active, #five:visited, #five:focus {text-decoration: none;}
+#six, #six:hover, #six:active, #six:visited, #six:focus {text-decoration: none;}
 
 
-.clear {
-  clear: both;
-}
+.clear {clear: both;}
 @media screen and (max-width: 991px) {
-  .icon-row-bg {
-    background-image: none;
-  }
+    .icon-row-bg {background-image: none;  }
 }

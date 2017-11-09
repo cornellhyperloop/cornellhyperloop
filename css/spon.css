@@ -1,15 +1,19 @@
 html{height: 100%;width: 100%;}
 body{height: 100%;width: 100%;}
-.border{border: solid black 2px;padding-bottom: 5px;}
-.border:hover{background-color: rgba(255,255,255,.5);}
-.donate{color: black;margin-top: 0px; text-align: center;font-weight: 900;}
-.background2{background-color: white;background-size: cover;background-position: bottom;min-height: 100%;}
-a {text-decoration: none;} a:hover{text-decoration: none;}
+
+.border{border: solid black 2px;padding-bottom: 5px;background-color: rgba(0,0,0,0);transition: all 1s;font-weight: 900;}
+.border:hover{background-color: rgba(0,0,0,.5);}
+.donate{color: black;margin-top: 0px; text-align: center;}
+.border:hover .donate{color: white;}
+
+
+.pre-back{background: url(../images/backgrounds/spons1.jpg) fixed;background-size: cover;height: 100%;}
+
 .sponHold{margin-bottom: 40px;}
-h1 {font-weight: 900;}
-.black2{color: #1c1c1c}
-.pre-back{background: url(../images/spons1.jpg) fixed;background-size: cover;height: 100%;}
-.main-title{font-weight: 900;font-size: 5em;margin-top: 60%;}
+h1 {font-weight: 900;} h3{font-weight: 900;}
+hr {color: #1c1c1c;background-color: #1c1c1c;height: 2px;}
+p  {font-size: 1.5em;}
+
 #images img{border-bottom: solid 5px transparent;padding-bottom: 5px;transition: 1s;}
 #images img:hover{opacity: .8;border-bottom-color: #1c1c1c;}
 

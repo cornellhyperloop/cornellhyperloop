@@ -1,16 +1,14 @@
 html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
-.prebackground{background-image: url(../images/about%20blur.jpg);height: 100%;background-size: cover;}
+.prebackground{background-image: url(../images/backgrounds/about%20blur.jpg);height: 100%;background-size: cover;}
 .background{background-color: white;min-height: 50%;}
-
-.main-title{font-weight: 900;font-size: 5em;margin-top: 60%;}
 
 .top{margin-top: 8%;}.bot{margin-bottom: 15%;}
 
-#chassis {position: relative; background-image: url(../images/chassis.png);height: 600px;opacity: 1;z-index: 2;background-position: center;background-size: cover; transition: all 1s;}
-#wheel {position: absolute; background-image: url(../images/wheel.png);height: 600px;opacity: 1;z-index: 4;background-position: center;background-size: cover; transition: all 1s;}
-#fuselage {position: absolute; background-image: url(../images/fuselage.png);height: 600px;opacity: 1;z-index: 5;background-position: center;background-size: cover; transition: all 1s;}
-#electrical {position: absolute; background-image: url(../images/electrical.png);height: 600px; opacity: 1; z-index: 3;background-position: center;background-size: cover; transition: all 1s;}
-#maglev {position: absolute; background-image: url(../images/maglev.png);height: 600px; opacity: 1; z-index: 1  ;background-position: center;background-size: cover; transition: all 1s;}
+#chassis {position: relative; background-image: url(../images/design/chassis.png);height: 600px;opacity: 1;z-index: 2;background-position: center;background-size: cover; transition: all 1s;}
+#wheel {position: absolute; background-image: url(../images/design/wheel.png);height: 600px;opacity: 1;z-index: 4;background-position: center;background-size: cover; transition: all 1s;}
+#fuselage {position: absolute; background-image: url(../images/design/fuselage.png);height: 600px;opacity: 1;z-index: 5;background-position: center;background-size: cover; transition: all 1s;}
+#electrical {position: absolute; background-image: url(../images/design/electrical.png);height: 600px; opacity: 1; z-index: 3;background-position: center;background-size: cover; transition: all 1s;}
+#maglev {position: absolute; background-image: url(../images/design/maglev.png);height: 600px; opacity: 1; z-index: 1  ;background-position: center;background-size: cover; transition: all 1s;}
 #fullpodtext {position: absolute; font-size:20pt ; opacity: 1; z-index: 5;background-position: center;background-size: cover; transition: all 1s;}
 #maglevtext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
 #suspensiontext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
