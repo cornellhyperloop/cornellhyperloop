@@ -1,5 +1,5 @@
 html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
-.prebackground{background-image: url(../images/backgrounds/about%20blur.jpg);height: 100%;background-size: cover;}
+.prebackground{background: url(../images/backgrounds/about%20blur.jpg) fixed;background-size: cover;height: 100%;}
 .background{background-color: white;min-height: 50%;}
 
 .top{margin-top: 8%;}.bot{margin-bottom: 15%;}
@@ -17,21 +17,26 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
 
 
 .center{padding-top: 10%;}
-.reveal{color: white;font-size: 1.5em;font-weight: 900;border: solid white 2px;padding: 3px;}
-.reveal:hover {color: white;text-decoration: none;}
 .subsystem{border-bottom: solid black 2px;}
-
-.buttons{height: 600px;}
+.subsystem b{color: crimson;}
+#buttnav h3{margin: 0px;}
 
 .block-butt{height:20%;transition: all 1s;}
-.block-butt:hover{opacity: .7;}
 
-#one {background-color: crimson;}
-#two {background-color: dodgerblue;}
-#three {background-color: forestgreen;}
-#four {background-color: orange}
-#five {background-color: blueviolet;}
+#one {background-image: url(/images/icons/electrical_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;}
+#two {background-image: url(/images/icons/fuselage_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;}
+#three {background-image: url(/images/icons/suspension_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;}
+#four {background-image: url(/images/icons/maglev_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;}
 
-.destext{background-image: url("http://www.texturex.com/albums/Metal-Textures/dark%20brushed%20metal%20texture%20steel%20black%20stock%20photo%20scratch%20wallpaper.jpg");background-size: cover;height: 600px;width: 25.8%;color: white;}
+#one:hover {background-image: url(/images/icons/electrical_on.png);transition: all 1s;}
+#two:hover {background-image: url(/images/icons/fuselage_on.png);transition: all 1s;}
+#three:hover {background-image: url(/images/icons/suspension_on.png);transition: all 1s;}
+#four:hover {background-image: url(/images/icons/maglev_on.png);transition: all 1s;}
+#all:hover {background-image: url(/images/icons/leads_on.png);transition: all 1s;}
+
+#all {background-image: url(/images/icons/leads_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;}
+
+.destext{background-image: url();background-size: cover;height: 600px;color: black;}
 .contitle{font-weight: 900;}
-.soon{font-weight: 900;font-size: 5em;margin-top: 30%;margin-bottom: 30%;}
+#buttnav h1{font-size: 5em;}
+#buttnav hr{color: crimson;height: 2px;background-color: #1c1c1c;}
