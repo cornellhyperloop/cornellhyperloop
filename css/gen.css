@@ -23,7 +23,7 @@ body{width: 100%; overflow: auto;margin: 0%;}
 .font{font-family: 'Quattrocento Sans', sans-serif;}
 
 .navbar{margin: 0px;}
-.navbar img{padding-left: 10px;}
+.navbar img{padding-left: 0px;}
 
 /*----Footer-----*/
 #footer{background-color: #1c1c1c;height: 50px;z-index: 1;width: 100%;}
@@ -33,7 +33,7 @@ body{width: 100%; overflow: auto;margin: 0%;}
 .copyright{font-size: 20px; margin-top: 15px; margin-bottom: 3px;}
 #fb{margin-top: 3px;}
 
-.container-fluid {padding-right:0;padding-left:0;margin-right:auto;margin-left:auto;overflow: hidden;}
+.container-fluid{padding-right:15px;padding-left:0;margin-right:auto;margin-left:auto;overflow: hidden;}
 
 a:link {text-decoration: none;}a:visited {text-decoration: none;}a:hover {text-decoration: none;}a:active {text-decoration: none;}
 
@@ -46,5 +46,4 @@ a:link {text-decoration: none;}a:visited {text-decoration: none;}a:hover {text-d
     .cc{margin-top: 5px}
     #footer {height: 15%;margin-bottom: 0px;padding-bottom: 0px;}
     .logo{content:url("../images/logotext%20thin.png"); width: 70%; height: auto; margin-left: 2%;}
-    
 }
