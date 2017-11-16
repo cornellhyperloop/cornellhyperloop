@@ -34,7 +34,7 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
 #four:hover {background-image: url(/images/icons/maglev_on.png);transition: all 1s;}
 #all:hover {background-image: url(/images/icons/leads_on.png);transition: all 1s;}
 
-#all {background-image: url(/images/icons/leads_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;}
+#all {background-image: url(/images/icons/leads_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;background-size: contain;}
 
 .destext{background-image: url();background-size: cover;height: 600px;color: black;}
 .contitle{font-weight: 900;}
