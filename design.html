@@ -2,51 +2,53 @@
 <html>
 <head>
     <title>Cornell Hyperloop</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src="https://use.fontawesome.com/a685f20cb7.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">   
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/design.css" />
+    <link rel="stylesheet" href="css/gen.css" />
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type='text/javascript'src='http://code.jquery.com/jquery-1.9.1.js'></script>
     <script type='text/javascript' src="js/design.js"> </script>
-    <link rel="stylesheet" href="css/gen.css" >
-    <link rel="stylesheet" href="css/design.css" >
 </head>
 
 
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a href="index.html"><img src="images/logotext.png" height="70" alt="Hyperloop team page"></a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a class="font navbutton black" id="blacknav" href="index.html"><h4>HOME</h4></a></li>
-                <li><a class="font navbutton black" id="blacknav" href="about.html"><h4>ABOUT</h4></a></li>
-                <li><a class="font navbutton black" id="blacknav" href="team.html"><h4>TEAM</h4></a></li>
-                <li><a class="font navbutton black" id="blacknav" href="design.html"><h4>DESIGN</h4></a></li>
-                <li><a class="font navbutton black" id="blacknav" href="sponsors.html"><h4>SPONSORS</h4></a></li>
-              </ul>
+    
+    <div class="container-fluid ">
+        
+        <nav class="navbar navbar-default" id="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html"><img src="images/logotext.png" height="70px"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="font navbutton black" id="blacknav" href="index.html"><h4>HOME</h4></a></li>
+                        <li><a class="font navbutton black" id="blacknav" href="about.html"><h4>ABOUT</h4></a></li>
+                        <li><a class="font navbutton black" id="blacknav" href="team.html"><h4>TEAM</h4></a></li>
+                        <li><a class="font navbutton black" id="blacknav" href="design.html"><h4>DESIGN</h4></a></li>
+                        <li><a class="font navbutton black" id="blacknav" href="sponsors.html"><h4>SPONSORS</h4></a></li>
+                    </ul>
+                </div>
             </div>
+        </nav>
     </div>
-  </nav>
-
     <div class="container-fluid prebackground">
         <div class="row" align="center">
             <div class="col-md-4 col-md-offset-4">
                 <h1 class="font white main-title">HYPERLOOP POD DESIGN</h1>
             </div>
         </div>
-
+    
     </div>
 
     <div class="container-fluid background">
@@ -56,7 +58,7 @@
                 <hr><br>
             </div>
             <div class="col-md-2 col-md-offset-1" align="center">
-                <h3 class="contitle font">ALL SYSTEMS</h3>
+                <h3 class="contitle font">ALL</h3>
             </div>
             <div class="col-md-2" align="center">
                 <h3 class="contitle font">ELECTRICAL</h3>
@@ -73,21 +75,13 @@
 
             <div class="col-md-2 block-butt col-md-offset-1" id="all"></div>
 
-            <div class="col-md-2 block-butt" id="one">
-
-            </div>
-            <div class="col-md-2 block-butt" id="four">
-
-            </div>
-            <div class="col-md-2 block-butt" id="three">
-
-            </div>
-            <div class="col-md-2 block-butt" id="two">
-
-            </div>
+            <div class="col-md-2 block-butt" id="one"></div>
+            <div class="col-md-2 block-butt" id="four"></div>
+            <div class="col-md-2 block-butt" id="three"></div>
+            <div class="col-md-2 block-butt" id="two"></div>
 
         </div>
-
+        
         <div class="row subsystem font">
 
             <div id="maglevtext" class=" col-md-3 destext" align="center">
@@ -110,17 +104,20 @@
                 <br>
                 <b>The Electrical Sub-Team</b> works on developing both the software and hardware that allows the Hyperloop Pod to sense, interpret and adjust to changing inputs from the track.
             </div>
-
+            
 
             <div id="chassis" class=" col-md-6 col-md-offset-3"></div>
             <div id="wheel" class=" col-md-6 col-md-offset-3"></div>
-            <div id="fuselage" class="col-md-6 col-md-offset-3"></div>
+            <div id="fuselage" class="col-md-6 col-md-offset-3"></div>            
             <div id="electrical" class=" col-md-6 col-md-offset-3"></div>
             <div id="maglev" class=" col-md-6 col-md-offset-3"></div>
 
-        </div>
-    </div>
+            
 
+
+        </div>
+    </div>    
+    
     <div id="footer" class="container-fluid">
         <div class="row">
             <div class="col-md-4" align="center">
