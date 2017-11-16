@@ -7,6 +7,9 @@ body{width: 100%; overflow: auto;margin: 0%;}
 /*-----Nav-Button & Nav-Bar---*/
 #navbar{background-color: white; height: 70px; border-color: transparent; margin-bottom: 0px; border-radius: 0px;overflow: hidden;}
 #blacknav{color: black; padding-top: 0px; padding-bottom: 0px; padding-left: 13px; padding-right: 13px;font-style: bold;}
+@media (max-width: 768px) {
+  #blacknav{padding-left: 5%;}
+}
 #blacknav h4{font-weight: 900;}
 .navbutton {text-align: left;display: inline-block;position:relative;overflow:hidden;color: black;text-transform: capitalize;margin-top: 15px;}
 .navbutton:hover{color: crimson;text-decoration: none;}
@@ -19,6 +22,8 @@ body{width: 100%; overflow: auto;margin: 0%;}
 
 .font{font-family: 'Quattrocento Sans', sans-serif;}
 
+.navbar{margin: 0px;}
+.navbar img{padding-left: 10px;}
 
 /*----Footer-----*/
 #footer{background-color: #1c1c1c;height: 8%;z-index: 1;width: 100%;}
