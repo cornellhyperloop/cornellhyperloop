@@ -34,5 +34,6 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 
 .clear {clear: both;}
 @media screen and (max-width: 991px) {
-    .icon-row-bg {background-image: none;  }
+    .icon-row-bg {background-image: none;}
+    .pre-back2 {background: url(../images/backgrounds/team-crop.jpg) fixed; background-size: cover; background-size:100% auto; height: 50%; background-position: 0px 30px;}
 }

@@ -40,9 +40,11 @@ a:link {text-decoration: none;}a:visited {text-decoration: none;}a:hover {text-d
 .main-title{font-weight: 900;font-size: 5em;margin-top: 60%;}
 
 @media screen and (max-width: 991px) {
-    .main-title {font-size: 3em;}
+    .main-title {font-size: 3em; margin: 55% 0%;}
     .copyright{margin-bottom: 0px;}
     #fb {margin-bottom: 0px;}
     .cc{margin-top: 5px}
     #footer {height: 15%;margin-bottom: 0px;padding-bottom: 0px;}
+    .logo{content:url("../images/logotext%20thin.png"); width: 70%; height: auto; margin-left: 2%;}
+    
 }
