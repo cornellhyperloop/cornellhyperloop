@@ -21,12 +21,12 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
 .subsystem b{color: crimson;}
 #buttnav h3{margin: 0px;}
 
-.block-butt{height:20%;transition: all 1s;}
+.block-butt{height:100px;transition: all 1s;}
 
-#one {background-image: url(/images/icons/electrical_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;}
-#two {background-image: url(/images/icons/fuselage_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;}
-#three {background-image: url(/images/icons/suspension_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;}
-#four {background-image: url(/images/icons/maglev_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;}
+#one {background-image: url(/images/icons/electrical_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;background-size: contain;}
+#two {background-image: url(/images/icons/fuselage_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;background-size: contain;}
+#three {background-image: url(/images/icons/suspension_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;background-size: contain;}
+#four {background-image: url(/images/icons/maglev_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;background-size: contain;}
 
 #one:hover {background-image: url(/images/icons/electrical_on.png);transition: all 1s;}
 #two:hover {background-image: url(/images/icons/fuselage_on.png);transition: all 1s;}
@@ -38,5 +38,5 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
 
 .destext{background-image: url();background-size: cover;height: 600px;color: black;}
 .contitle{font-weight: 900;}
-#buttnav h1{font-size: 5em;}
+#buttnav h1{font-size: 4em;}
 #buttnav hr{color: crimson;height: 2px;background-color: #1c1c1c;}
