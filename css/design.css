@@ -17,7 +17,7 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
 
 
 .center{padding-top: 10%;}
-.subsystem{border-bottom: solid black 2px;}
+.subsystem{} p{font-size: .7em;}
 .subsystem b{color: crimson;}
 #buttnav h3{margin: 0px;}
 
@@ -36,7 +36,8 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
 
 #all {background-image: url(/images/icons/leads_off.png);background-repeat: no-repeat;background-position: center;transition: all 1s;background-size: contain;}
 
-.destext{background-image: url();background-size: cover;height: 600px;color: black;}
+.destext{background-color: white;background-size: cover;height: 600px;color: black;}
 .contitle{font-weight: 900;}
+c{font-weight: 900;color: crimson;}
 #buttnav h1{font-size: 4em;}
 #buttnav hr{color: crimson;height: 2px;background-color: #1c1c1c;}
