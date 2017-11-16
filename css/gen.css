@@ -26,7 +26,7 @@ body{width: 100%; overflow: auto;margin: 0%;}
 .navbar img{padding-left: 10px;}
 
 /*----Footer-----*/
-#footer{background-color: #1c1c1c;height: 8%;z-index: 1;width: 100%;}
+#footer{background-color: #1c1c1c;height: 50px;z-index: 1;width: 100%;}
 #footer a{text-decoration: none;color: white;}
 #footer h3{text-decoration: none;color: white;font-weight: 900;}
 #footer h3:hover{text-decoration: none;color: crimson;}
@@ -38,3 +38,11 @@ body{width: 100%; overflow: auto;margin: 0%;}
 a:link {text-decoration: none;}a:visited {text-decoration: none;}a:hover {text-decoration: none;}a:active {text-decoration: none;}
 
 .main-title{font-weight: 900;font-size: 5em;margin-top: 60%;}
+
+@media screen and (max-width: 991px) {
+    .main-title {font-size: 3em;}
+    .copyright{margin-bottom: 0px;}
+    #fb {margin-bottom: 0px;}
+    .cc{margin-top: 5px}
+    #footer {height: 15%;margin-bottom: 0px;padding-bottom: 0px;}
+}

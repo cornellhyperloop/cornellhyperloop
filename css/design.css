@@ -16,7 +16,6 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
 #electricaltext {position: absolute; font-size:20pt ; opacity: 0; z-index: 7;background-position: center;background-size: cover; transition: all 1s;}
 
 
-.center{padding-top: 10%;}
 .subsystem{} p{font-size: .7em;}
 .subsystem b{color: crimson;}
 #buttnav h3{margin: 0px;}
@@ -41,3 +40,17 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
 c{font-weight: 900;color: crimson;}
 #buttnav h1{font-size: 4em;}
 #buttnav hr{color: crimson;height: 2px;background-color: #1c1c1c;}
+
+
+@media screen and (max-width: 991px) {
+    #buttnav h3{font-size:.5em;}
+    #buttnav h1{font-size: 3em;}
+    .block-butt{height:50px}
+    .destext{width: 104%;height: 300px;}
+    #chassis {height: 250px;margin-top: 300px}
+    #wheel {height: 250px;margin-top: 300px}
+    #fuselage {height: 250px;margin-top: 300px}
+    #electrical {height: 250px;margin-top: 300px}
+    #maglev {height: 250px;margin-top: 300px}
+    .contitle{margin-top: 20px;}
+}

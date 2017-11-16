@@ -10,6 +10,7 @@ $(function() {
         $("#fuselagetext").css("opacity", "0");
         $("#suspensiontext").css("opacity", "0");
         $("#maglevtext").css("opacity", "0");
+        $("#fullpodtext").css("opacity", "1");
         $("#one").css("background-image","url(/images/icons/electrical_off.png)");
         $("#two").css("background-image","url(/images/icons/fuselage_off.png)");
         $("#three").css("background-image","url(/images/icons/suspension_off.png)");
@@ -28,6 +29,7 @@ $(function() {
         $("#fuselagetext").css("opacity", "0");
         $("#suspensiontext").css("opacity", "0");
         $("#maglevtext").css("opacity", "0");
+        $("#fullpodtext").css("opacity", "0");
         $("#one").css("background-image","url(/images/icons/electrical_on.png)");
         $("#two").css("background-image","url(/images/icons/fuselage_off.png)");
         $("#three").css("background-image","url(/images/icons/suspension_off.png)");
