@@ -6,12 +6,12 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 .pic{height: 100%;border-radius: 50%;position: relative;margin: auto;}
 .nameTxt{color: black; margin-bottom: 1px;font-family: 'Quattrocento Sans', sans-serif;font-weight: 900;}
 .picTxt{color: crimson;font-weight: 900;}
-.pre-back{background: url(../images/backgrounds/team.jpg) fixed;background-size: cover;height: 100%;}
+.pre-back{background: url(../images/backgrounds/team.jpg) fixed;background-size: cover;height: 100%;background-position: center;}
 .whitebackground{background-color: white;}
 .sec{margin-top: 20px;}
 .blackhr2{background-color: black;height: 5px;color: black;}
 
-.pre-back2{background: url(../images/backgrounds/team.jpg) fixed;background-size: cover;height: 100%;}
+.pre-back2{background: url(../images/backgrounds/team.jpg) fixed;background-size: cover;height: 100%;background-position: center;}
 .icon-row-bg {background-image: url("../images/icons/bg.png");width: 80%;/*background-color: red;*/background-repeat: no-repeat;background-size: 100%;margin: 2% auto;}
 .icons{margin: 2% auto;}
 .icons img {width: 80%;}

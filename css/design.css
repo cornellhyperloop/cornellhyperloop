@@ -1,5 +1,5 @@
 html{height: 100%; width: 100%;}body{height: 100%; width: 100%;margin: 0%;}
-.prebackground{background: url(../images/backgrounds/about%20blur.jpg) fixed;background-size: cover;height: 100%;}
+.prebackground{background: url(../images/backgrounds/about%20blur.jpg) fixed;background-size: cover;height: 100%;background-position: center;}
 .background{background-color: white;min-height: 50%;}
 
 .top{margin-top: 8%;}.bot{margin-bottom: 15%;}
