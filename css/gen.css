@@ -6,7 +6,7 @@ body{width: 100%; overflow: auto;margin: 0%;}
 
 /*-----Nav-Button & Nav-Bar---*/
 #navbar{background-color: white; height: 70px; border-color: transparent; margin-bottom: 0px; border-radius: 0px;overflow: hidden;}
-#blacknav{color: black; padding-top: 0px; padding-bottom: 0px; padding-left: 13px; padding-right: 13px;font-style: bold;}
+#blacknav{color: black; padding-top: 0px; padding-bottom: 0px; padding-left: 13px; padding-right: 13px; font-style: normal;}
 @media (max-width: 768px) {
   #blacknav{padding-left: 5%;}
 }
@@ -33,7 +33,8 @@ body{width: 100%; overflow: auto;margin: 0%;}
 .copyright{font-size: 20px; margin-top: 15px; margin-bottom: 3px;}
 #fb{margin-top: 3px;}
 
-.container-fluid{padding-right:15px;padding-left:0;margin-right:auto;margin-left:auto;overflow: hidden;}
+.container-fluid{padding-right:0px;padding-left:0;margin-right:auto;margin-left:auto;overflow: hidden;}
+.navbar-right{margin-right:15px;}
 
 a:link {text-decoration: none;}a:visited {text-decoration: none;}a:hover {text-decoration: none;}a:active {text-decoration: none;}
 
@@ -44,6 +45,8 @@ a:link {text-decoration: none;}a:visited {text-decoration: none;}a:hover {text-d
     .copyright{margin-bottom: 0px;}
     #fb {margin-bottom: 0px;}
     .cc{margin-top: 5px}
-    #footer {height: 15%;margin-bottom: 0px;padding-bottom: 0px;}
+    #footer {height: 8%; margin-bottom: 0px; padding-bottom: 0px;}
     .logo{content:url("../images/logotext%20thin.png"); width: 70%; height: auto; margin-left: 2%;}
+    .navbar-header{padding-left: 10px; padding-right: 10px;}
+    .whitebackground{padding-bottom: 27%;}
 }
