@@ -2,8 +2,9 @@ html{height: 100%;}
 body{height: 100%;}
 a {text-decoration: none;} a:hover {text-decoration: none;}
 .background2{background-image: url("../images/backgrounds/stars.jpg");background-size: cover;min-height:100%;background-position: center;}
-.pre-back{background: url(../images/backgrounds/pod%20blur.jpg) fixed;background-size: cover;height: 100%;background-position: center;}
+.pre-back{background: url(../images/backgrounds/pod%20blur.jpg) fixed;background-size: cover;height: 75vh;background-position: center;}
 #page a:hover{color: crimson;}
-#lngtxt{margin-bottom: 40px;}
-#page h1{font-weight: 900;}
-#page h2{font-weight: 900;}
+#lngtxt{margin-bottom: 40px; font-size: 2vh;}
+#page h1{font-weight: 900; font-size: 4vh}
+#page h2{font-weight: 900; font-size: 4vh}
+p  {font-size: 2vh}
