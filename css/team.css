@@ -10,6 +10,7 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 .whitebackground{background-color: white;}
 .sec{margin-top: 20px;}
 .blackhr2{background-color: black;height: 5px;color: black;}
+.unhide-mobile{display: none;}
 
 .pre-back2{background: url(../images/backgrounds/team.jpg) fixed;background-size: cover;height: 100%;background-position: center;}
 .icon-row-bg {background-image: url("../images/icons/bg.png");width: 80%;/*background-color: red;*/background-repeat: no-repeat;background-size: 100%;margin: 2% auto;}
@@ -34,6 +35,14 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 
 .clear {clear: both;}
 @media screen and (max-width: 991px) {
-    .icon-row-bg {background-image: none;}
+    .icon-row-bg{background-image: none;margin: 0 auto; width: 90%;}
     .pre-back2 {background: url(../images/backgrounds/team-crop.jpg) fixed; background-size: cover; background-size:100% auto; height: 50%; background-position: 0px 30px;}
+    .notop{font-size: 10px;}
+    .unhide-mobile{display: block; margin: 0px auto;}
+    .hide-mobile{display: none;}
+
+    #one img{margin: 0;}
+    #two img{margin: 0;}
+    #five img{margin: 0;}
+    #six img{margin: 0;}
 }
