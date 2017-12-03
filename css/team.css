@@ -3,7 +3,7 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 .top{margin-top: 0%;}.notop{margin-top: 0;margin-bottom: 0;font-weight: 800; text-align: center;}
 .picHold{height: 175px; margin-bottom: 60px;}
 .picHold2{height: 175px; margin-bottom: 60px;}
-.pic{height: 100%;border-radius: 50%;position: relative;margin: auto;}
+.pic{height: auto;border-radius: 50%;position: relative;margin: auto; max-width:100%;}
 .nameTxt{color: black; margin-bottom: 1px;font-family: 'Quattrocento Sans', sans-serif;font-weight: 900;}
 .picTxt{color: crimson;font-weight: 900;}
 .pre-back{background: url(../images/backgrounds/team.jpg) fixed;background-size: cover;height: 100%;background-position: center;}
@@ -45,4 +45,9 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
     #two img{margin: 0;}
     #five img{margin: 0;}
     #six img{margin: 0;}
+
+    .row{height: 0px;}
+    .one_lead{height: auto; display: block;}
+    .one_lead img{max-width: 50%;}
+    #leads,#business,#suspension,#electrical,#maglev,#fuselage{margin: 2%;}
 }
