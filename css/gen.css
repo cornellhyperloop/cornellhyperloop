@@ -1,5 +1,5 @@
 html{min-height: 100%;}
-body{width: 100%; overflow: auto;margin: 0%;}
+body{width: 100%; overflow: auto;margin: 0%;background-color:#1c1c1c}
 #page{background-color: white;min-height: 100%;}
 .blackbackground {background-color: black;}
 .whitebackground{background-color: white;}
@@ -44,8 +44,8 @@ a:link {text-decoration: none;}a:visited {text-decoration: none;}a:hover {text-d
     .main-title {font-size: 3em; margin: 55% 0%;}
     .copyright{margin-bottom: 0px;}
     #fb {margin-bottom: 0px;}
-    .cc{margin-top: 5px}
-    #footer {height: 8%; margin-bottom: 0px; padding-bottom: 0px;}
+    .cc{margin-top: 5px;font-size: 1em;}
+    #footer {height:10%; margin-bottom: 0px; padding-bottom: 0px;}
     .logo{content:url("../images/logotext%20thin.png"); width: 70%; height: auto; margin-left: 2%;}
     .navbar-header{padding-left: 10px; padding-right: 10px;}
     .whitebackground{padding-bottom: 27%;}
