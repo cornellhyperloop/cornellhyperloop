@@ -1,8 +1,8 @@
 html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 .page-scroll{}
 .top{margin-top: 0%;}.notop{margin-top: 0;margin-bottom: 0;font-weight: 800; text-align: center;}
-.picHold{height: 175px; margin-bottom: 60px;}
-.picHold2{height: 175px; margin-bottom: 60px;}
+.picHold{height: 175px; margin-bottom: 20vh;}
+.picHold2{height: 175px; margin-bottom: 15vh;}
 .pic{height: auto;border-radius: 50%;position: relative;margin: auto; max-width:100%;}
 .nameTxt{color: black; margin-bottom: 1px;font-family: 'Quattrocento Sans', sans-serif;font-weight: 900;}
 .picTxt{color: crimson;font-weight: 900;}

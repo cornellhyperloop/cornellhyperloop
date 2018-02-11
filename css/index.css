@@ -4,7 +4,7 @@
 
 .donate{background-color: rgba(244,244,244,.4);border: solid black 2px;color: black; padding: 10px;margin-top: 0px; text-align: center;font-weight: 900;}
 .donate:hover{background-color: rgba(0,0,0,.5);color: white;}
-#buttonholder{margin-top: 13vh; z-index: 2; position: absolute;}
+#buttonholder{margin-top: 10vh; z-index: 2; position: absolute;}
 
 .font2{font-size: 30px; font-weight: 700; color: #1c1c1c;}
 video {z-index: 1;width: 100%;display: inline-block;margin:0;padding:0;position: relative;top: 0px;}
