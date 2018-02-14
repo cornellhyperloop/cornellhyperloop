@@ -12,7 +12,7 @@ html{height: 100%; width: 100%;}body{height: 100%; width: 100%;}
 .blackhr2{background-color: black;height: 5px;color: black;}
 .unhide-mobile{display: none;}
 
-.pre-back2{background: url(../images/backgrounds/team.jpg) fixed;background-size: cover;height: 100%;background-position: center;}
+.pre-back2{background: url(../images/team/team1.jpg) fixed;background-size: cover;height: 100%;background-position: top;}
 .icon-row-bg {background-image: url("../images/icons/bg.png");width: 80%;/*background-color: red;*/background-repeat: no-repeat;background-size: 100%;margin: 2% auto;}
 .icons{margin: 2% auto;}
 .icons img {width: 80%;}
