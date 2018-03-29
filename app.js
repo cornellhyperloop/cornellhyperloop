@@ -28,6 +28,7 @@
     firebase.auth().signInWithEmailAndPassword(email,pass).then(function() {
       console.log("Good");
       window.location.href = "http://cornellhyperloop.tech/redirect.html";
+      console.log("Redirected");
     }).catch(function(error) {
       alert("Sorry Wrong password and username");
       console.log("Bad");
