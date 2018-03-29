@@ -5,3 +5,4 @@
 <?php include('nav-bar.php'); ?>
 <body>
 Index Page, Home has an active class
+</body>
