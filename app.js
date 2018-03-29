@@ -39,12 +39,17 @@
   firebase.auth().signOut();
  });
 
+
+
  firebase.auth().onAuthStateChanged(firebaseUser =>{
   if (firebaseUser){
     console.log(firebaseUser);
     console.log("Logged in");
+    document.getElementById("btnLogout").style.visibility = "visible";
   } else{
     console.log("Not logged in");
+    var x = document.getElementById("btnLogout");
+    x.style.visibility = "hidden";
   }
  });
   
