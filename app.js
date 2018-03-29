@@ -35,6 +35,10 @@
    });
  };
 
+ btnLogout.addEventListener('click', e=>{
+  firebase.auth().signOut();
+ });
+
  firebase.auth().onAuthStateChanged(firebaseUser =>{
   if (firebaseUser){
     console.log(firebaseUser);
