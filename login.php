@@ -51,8 +51,11 @@
     var pass = txtPassword.value;
     firebase.auth().signInWithEmailAndPassword(email,pass).then(function() {
       console.log("Good");
-      window.location.href = "http://localhost:8888/test/memberInfo.php";
+      window.location.href = "memberInfo.php";
       console.log("Redirected");
+        <?php
+        setcookie("validUser", 1);
+      ?>
     }).catch(function(error) {
       alert("Sorry Wrong password and username");
       console.log("Bad");
