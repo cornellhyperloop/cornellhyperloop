@@ -51,9 +51,6 @@
     var pass = txtPassword.value;
     firebase.auth().signInWithEmailAndPassword(email,pass).then(function() {
       console.log("Good");
-    <?php
-      setcookie("validUser", 1);
-      ?>
       window.location.href = "http://localhost:8888/test/memberInfo.php";
       console.log("Redirected");
     }).catch(function(error) {
@@ -74,6 +71,10 @@
     console.log(firebaseUser);
     console.log("Logged in");
     document.getElementById("btnLogout").style.visibility = "visible";
+      <?php
+        setcookie("validUser", 1);
+      ?>
+
   } else{
     <?php
       if (isset($_COOKIE['validUser'])) {
